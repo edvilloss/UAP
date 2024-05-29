@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "b7f482b8cbc4771e",
+    "type": "split",
+    "children": [
+      {
+        "id": "97e0b3d4ba647e77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "deffd927ad0b6fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CE 531, GIS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc0e27e29eb9746a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Canvases/Model Builder GIS.canvas",
+                "viewState": {
+                  "x": -137.19097900390625,
+                  "y": 1967.4084888679045,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "325ac8f8fba8340e",
+    "type": "split",
+    "children": [
+      {
+        "id": "00260bdca98324aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeeae2b85b1c8ef1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "989b1d1240f0999c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "97a182f2ff0d9fe3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd8844562534f5c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "7f80915683f414da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "040d48b33af07643",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Courses/CE 531, GIS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f9db20a2ea1ad995",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Courses/CE 531, GIS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42df9e24e012cbf7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f6ceca53539922c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Courses/CE 531, GIS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "deffd927ad0b6fad",
+  "lastOpenFiles": [
+    "COMMIT_EDITMSG",
+    "Short note/Open Geospatial Consortium (OGC).md",
+    "Courses/CE 531, GIS.md",
+    "Templates/Table of Contents.md",
+    "Assets/Attachments/Pasted image 20240527215740.png",
+    "Assets/Attachments/Pasted image 20240527215729.png",
+    "Canvases/Model Builder GIS.canvas",
+    "Assets/Attachments/Pasted image 20240527215511.png",
+    "Assets/Attachments/Pasted image 20240527213126.png",
+    "Assets/Attachments/Pasted image 20240527212339.png",
+    "Assets/Attachments/WhatsApp Image 2024-03-06 at 09.33.26_8772f498.jpg",
+    "Assets/Attachments/Pasted image 20240527203931.png",
+    "Canvases/Flood map generation (HECRAS).canvas",
+    "Assets/Attachments/Pasted image 20240527184831.png",
+    "Assets/Attachments/Pasted image 20240527183926.png",
+    "Assets/Attachments/Pasted image 20240527183922.png",
+    "Canvases",
+    "Assets/Attachments/Final_project_report.pdf",
+    "Short note",
+    "Courses/[Projected.md",
+    "Courses/CE 423, Earthquake.md",
+    "A.md",
+    "Assets/Attachments",
+    "Assets",
+    "Assets/Attachments/Images",
+    "Courses",
+    "https/youtu.be/lNjrAXGR1d3a4.md",
+    "https/youtu.be/lNjrAXGR1d3a41.md",
+    "Templates",
+    "https/youtu.be",
+    "https",
+    "hello.md"
+  ]
+}
