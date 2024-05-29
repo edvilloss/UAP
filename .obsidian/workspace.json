@@ -143,13 +143,21 @@
                 "file": "Courses/CE 531, GIS.md"
               }
             }
+          },
+          {
+            "id": "83ec59e0c4b3faf7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +170,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "deffd927ad0b6fad",
+  "active": "83ec59e0c4b3faf7",
   "lastOpenFiles": [
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
