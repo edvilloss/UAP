@@ -100,4 +100,24 @@ $$
 	- From table 6.C.1
 		- $S_{s}=0.7$
 		- $S_{1}=0.28$
-- 
+- Calculation of Site Coefficient Fa and Fv
+	- From table 6.C.2
+		- $F_{a}=1.15$
+	- From table 6.C.3
+		- $F_{v}=1.725$
+- Calculation of TL
+	- Long Period Transition Period, TL = TD = 2.0
+- Calculation of Spectral Response Acceleration Parameter SDS and SD1
+	- $S_{D1}=\left( \frac{2}{3} \right)*F_{y}*S_{1}=$
+	- $S_{D1}=\left( \frac{2}{3} \right)*F_{a}*S_{s}=$
+# Wind Load Calculation as per BNBC 2020
+- Basic Wind Speed:
+	- Location of the Project: Sirajganj
+	- From Table 6.2.8: V = 50.6m/s = ==114mph==
+- Structural Importance Factor, I
+	- From Table 6.1.1: Occupancy Category II (for residential Building)
+	- From Table 6.2.9: I = 1.0
+- Velocity Pressure Exposure Coefficient, Kz
+	- Exposure Category ==A==/B/C
+		- B for Etabs
+	- 
