@@ -37,4 +37,6 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ### 1st trial
 - Assuming $\frac{KL}{r}=100$
 - $r=1.92$
-- $F_{e}=\frac{\pi^2*29000}{\left( \frac{kL}{r} \right)^2}=\frac{\pi^2*29000}{(100)^2}=28.$
+- $F_{e}=\frac{\pi^2*29000}{\left( \frac{kL}{r} \right)^2}=\frac{\pi^2*29000}{(100)^2}=28.62 ksi$
+- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28.62} \right) \right)*60=24.5ksi$
+- $506.54k=\phi*F_{cr}*A_{g}$
