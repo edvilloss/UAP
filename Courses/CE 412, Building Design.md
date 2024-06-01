@@ -60,4 +60,28 @@ $$
 =\frac{4*20*75}{\frac{16.067}{2}+\frac{16.067}{2}}=92.9kg /sft *2.205=204.96 psf
 $$
 - Gardening Load: 120 pcf (minimum as per BNBC: 105 psf):not recommended
-# Earthquak
+# Earthquake Load Calculation as per BNBC 2020
+## Base Shear Parameters
+- Soil site Class (BNBC 2020_Table: 6.2.13)
+	- Site Class according to T6.2.13 = ==SC==
+- Seismic Zone Coefficient, Z
+	- According to BNBC 2020, T6.2.14, ==Z = 0.28==
+	- ==Zone 3==
+- Importance Factor, I
+	- Occupancy Category (T6.1.1) for Residential Building = II; I = 1.0 (T6.2.17)
+- Determination of Seismic Design Category (SDC)
+	- According to BNBC 2020, T6.2.18, ==SDC = C==
+- Determination of Response Reduction Factor, R
+	- According to BNBC 2020, T6.2.19, R = ==5 (Concrete IMRF)==
+- Soil Factor (S) and other related parameters (TB, TC, TD)
+	- According to BNBC 2020, T6.2.16
+		- $S = 1.15$
+		- $T_B= 0.20$
+		- $T_C= 0.6$
+		- $T_D = 2.0$
+- Building Period, T
+	- According to BNBC 2020, T6.2.20
+		- $C_t = 0.0466$
+		- $m = 0.9 (MRF)$
+		- $h_n = 86 ft/3.28 = 26.22 m$
+		- T = C_t (h_n)m = 0.88 sec.
