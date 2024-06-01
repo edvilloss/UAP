@@ -67,6 +67,9 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- $I_{y}=107 in^4$
 	- $I_{x}=640 in^4$
 ### Check K value
+#### Y dir
+![[Pasted image 20240602005039.png]]
+![[Pasted image 20240602004925.png]]
 - Beam,
 	- $I_{y}=50in^4$
 	- $L=$
