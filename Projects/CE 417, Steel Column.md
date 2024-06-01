@@ -72,4 +72,5 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ![[Pasted image 20240602004925.png]]
 - Beam,
 	- $I_{y}=50in^4$
-	- $L=$
+	- $L=33'$
+	- 
