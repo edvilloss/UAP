@@ -54,3 +54,14 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 - W14X68
 	- $A_{g}=20in^2$
 	- $r_{y}=2.46in$
+### 3nd trial
+- Assuming $\frac{KL}{r}=80$
+- $r=2.4$
+- $F_{e}=\frac{\pi^2*29000}{\left( \frac{kL}{r} \right)^2}=\frac{\pi^2*29000}{(80)^2}=44.72 ksi$
+- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{44.72} \right) \right)*60=34.22ksi$
+- $506.54k=\phi*F_{cr}*A_{g}$
+	- $A_{g}=\frac{506.54}{34.22*0.9}=16.45 in^2$
+- W14X68
+	- $A_{g}=17.9in^2$
+	- $r_{y}=2.45in$
+	- $I_{y}=107 in^4$
