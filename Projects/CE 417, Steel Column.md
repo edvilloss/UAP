@@ -31,6 +31,10 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- $\phi P= 1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
 ### K factor
 - 1st assumption 1 
+- $kL=16*12=192"$
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
-- $4.71*\sqrt(\frac{E}{F_{y}})=$4.71*\sqrt(\frac{29000}{60})=$
+- $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
 ### 1st trial
+- Assuming $\frac{KL}{r}=100$
+- $r=1.92$
+- $F_{e}=\frac{\pi^2*29000}{\left( \frac{kL}{r} \right)^2}=\frac{\pi^2*29000}{(100)^2}=28.$
