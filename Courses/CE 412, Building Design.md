@@ -8,6 +8,6 @@
 ## Building Geometry
 - Grid spacing, $S=\left( 15+\frac{x}{15} \right)ft$
 	- 16.067'
-- Initial column dimensions: Edge and corner columns (12"X15"); Center Columns (12"X18")
-- Initial beam 12"X15"
+- Initial column dimensions: Edge and corner columns (12"X15")~(17.5"X14.5" with 4" clear cover); Center Columns (12"X18")~ (20.5"X14.5" with 4" clear cover)
+- Initial beam (12"X15")~ Gre
 - 
