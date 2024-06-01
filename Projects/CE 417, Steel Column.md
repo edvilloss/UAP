@@ -15,4 +15,5 @@ Most critical Column should be the bottom story B2 and C2
 		- $\frac{12*35*33}{1000}*4=55.44k$
 	- Beam W12X45
 		- 45 lb/ft
-		- $\frac{45*(2*35+2*33)}{1000}*4=$
+		- $\frac{45*(2*35+2*33)}{1000}*4=24.48k$
+		- 
