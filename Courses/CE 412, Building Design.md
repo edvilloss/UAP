@@ -195,4 +195,37 @@ $$
 ## Steps to model (Define, Draw, Assign) the super structure via ETABS v16.2.1
 1. Grid and Story data
 2. Definition of Material properties
-	
+	- Concrete compressive strength (f’c, E)
+	- Steel reinforcement yield strength (fy, fu)
+3. Definition of frame members
+	- Definition of column (cross section, material, confinement type, rebar strength, clear cover etc)
+	- Definition of Beams (cross section, rebar strength, cover to rebar center)
+4. Definition of 2D elements (area objects)
+	-  Definition of slabs (Type of member: shell, membrane or plate; material strength, thickness)
+	- Definition of walls (type of member: shell, membrane or plate; material strength, thickness)
+5. Draw the structural geometry (column, shear wall, beam and slab)
+6. Definition of dead and live loads
+	- Dead loads:
+		- SW (dead)\_dead\_self weight multiplier-1
+		- FF\_super dead\_self weight multiplier-0
+		- FPW_ super dead_self weight multiplier-0
+	- Live Loads
+		- RPW_live
+		- LL42_live
+		- LL100\_live
+		- LL63\_live
+		- OHWT\_live
+		- Lift\_live
+7. Definition and assignment of diaphragm (area diaphragm)
+8. Definition of Wind loads (as per BNBC: ASCE 7-05)
+9. Definition of Mass source (Seismic dead loads)
+10. Definition of earthquake loads (as per ASCE 7-05)
+11. Assignment of gravity loads (except self-weight)
+	- FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
+	- FPW as line load
+12. Manual and auto mesh of slabs and walls
+13. Assignment of section modifier for columns, beams, slabs, walls
+	- ![[Pasted image 20240602055352.png]]
+	- ![[Pasted image 20240602055357.png]]
+	- ![[Pasted image 20240602055403.png]]
+	- ![[Pasted image 20240602055410.png]]
