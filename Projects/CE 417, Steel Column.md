@@ -10,8 +10,9 @@ Most critical Column should be the bottom story B2 and C2
 	- 6" thick slab
 		- $\frac{35*33*6}{12}\cdot(150/1000)*4=346.6k$
 	- 25 psf (electrical/mechanical and floor finish)
-		- $\frac{25*35*33}{1000}=28.875k$
+		- $\frac{25*35*33}{1000}*4=115.5k$
 	- 12 psf (permanent partition load)
-		- $\frac{12*35*33}{1000}=13.86k$
-	- Beam
-		- 
+		- $\frac{12*35*33}{1000}*4=55.44k$
+	- Beam W12X45
+		- 45 lb/ft
+		- $\frac{45*(2*35+2*33)}{1000}*4=$
