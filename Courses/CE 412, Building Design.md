@@ -144,10 +144,26 @@ $$
 	- G = 0.85
 - Wind Directionality Factor, Kd
 	- From table 6.2.12: for main wind force resisting system, Kd = 0.85
- ![[Pasted image 20240602052828.png]]
 - External Pressure Coefficient, Cpe
 	- From figure 6.2.6:
 		- In x-direction
+		- ![[Pasted image 20240602052828.png]]
 			- L = 16.067*5=80.335  ft
 			- B = 16.067*3=48.201  ft
-			- 
+			- L/B = 1.67
+			- For windward wall, Cpe = 0.8
+			- For leeward wall, Cpe = -0.366
+		- In y-direction
+		- ![[Pasted image 20240602052951.png]]
+			- L = 48.201 ft
+			- B = 80.335 ft
+			- L/B = 0.6
+			- For windward wall, Cpe = 0.8
+			- For leeward wall, Cpe = -0.5
+- Internal Pressure Coefficient, Cpi
+	- Not Required
+- Calculation of Velocity Pressure, q$_z$ (eqn. 6.2.17)
+	- $q_z = 0.00256 I K_z K_z K_d V^2 (lb/ft2)$
+	- $=0.00256*1.0*K_z*1.0*0.85*1142 = 28.28 K_z$
+- Calculation of Design Wind Pressure, Pz
+	- In x-direction
