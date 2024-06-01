@@ -65,3 +65,8 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- $A_{g}=17.9in^2$
 	- $r_{y}=2.45in$
 	- $I_{y}=107 in^4$
+	- $I_{x}=640 in^4$
+### Check K value
+- Beam,
+	- $I_{y}=50in^4$
+	- $L=$
