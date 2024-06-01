@@ -7,10 +7,10 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ![[Pasted image 20240601220543.png]]
 
 ## Answer 1
-Most critical Column should be the bottom story B2 and C2
+Column C
 - Dead Loads
-	- 6" thick slab
-		- $\frac{35*33*6}{12}\cdot(150/1000)*4=346.6k$
+	- 6" thick slab (slab area 33'X17.5')
+		- $\frac{33*17.5*6}{12}\cdot(150/1000)*4=346.6k$
 	- 25 psf (electrical/mechanical and floor finish)
 		- $\frac{25*35*33}{1000}*4=115.5k$
 	- 12 psf (permanent partition load)
