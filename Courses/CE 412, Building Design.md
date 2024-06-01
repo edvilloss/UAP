@@ -75,13 +75,22 @@ $$
 	- According to BNBC 2020, T6.2.19, R = ==5 (Concrete IMRF)==
 - Soil Factor (S) and other related parameters (TB, TC, TD)
 	- According to BNBC 2020, T6.2.16
-		- $S = 1.15$
-		- $T_B= 0.20$
-		- $T_C= 0.6$
-		- $T_D = 2.0$
+		- ==$S = 1.15$==
+		- ==$T_B= 0.20$==
+		- ==$T_C= 0.6$==
+		- ==$T_D = 2.0$==
 - Building Period, T
 	- According to BNBC 2020, T6.2.20
-		- $C_t = 0.0466$
-		- $m = 0.9 (MRF)$
-		- $h_n = 86 ft/3.28 = 26.22 m$
-		- T = C_t (h_n)m = 0.88 sec.
+		- ==$C_t = 0.0466$==
+		- ==$m = 0.9 (MRF)$==
+		- ==$h_n = \frac{86ft}{3.28} = 26.22 m$==
+		- ==$T = C_t (h_n)^m = 0.88 sec.$==
+- Determination of Damping correction factor, η
+	- For 5% damping, η = 1
+- Calculation of Normalized acceleration response spectrum, $C_s$
+	- According to Equation 6.2.35c
+		- $C_s = 2.5 S η \left( \frac{T_c}{T} \right) =2.5*1.35*1*\left( \frac{0.8}{0.88} \right)0.8/$
+- Determination of Seismic Dead Loads (Mass Source), W
+	- W = 100% DL + 25% LL (≤63psf) + 50% LL ( &gt;63psf)
+	- W = 300psf x Total Floor Area = 7695000 lb = 7695kip
+	- 
