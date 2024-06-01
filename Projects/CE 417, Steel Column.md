@@ -25,4 +25,5 @@ Column C
 			- Offices =$2.4 kN /m^2$
 			- Corridors above first floor =$3.8kN /m^2$
 		- Taking Offices $2.4kN /m^2 *20.885 =50.1lb /ft^2$
-			- $50.1*33*17.$
+			- $\frac{50.1*33*17.5*4}{1000}=115.73k$
+- 
