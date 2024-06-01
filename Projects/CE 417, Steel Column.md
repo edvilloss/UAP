@@ -10,12 +10,13 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 Column C
 - Dead Loads
 	- 6" thick slab (slab area 33'X17.5')
-		- $\frac{33*17.5*6}{12}\cdot(150/1000)*4=346.6k$
+		- $\frac{33*17.5*6}{12}\cdot(150/1000)*4=173.25k$
 	- 25 psf (electrical/mechanical and floor finish)
-		- $\frac{25*35*33}{1000}*4=115.5k$
+		- $\frac{25*33*17.5}{1000}*4=57.75k$
 	- 12 psf (permanent partition load)
-		- $\frac{12*35*33}{1000}*4=55.44k$
+		- $\frac{12*33*17.5}{1000}*4=27.72k$
 	- Beam W12X45
 		- 45 lb/ft
-		- $\frac{45*(2*35+2*33)}{1000}*4=24.48k$
-		- 
+		- $\frac{45*(33+17.5)}{1000}*4=9.09k$
+- Live Loads
+	- 
