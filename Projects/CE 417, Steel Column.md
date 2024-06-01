@@ -22,3 +22,7 @@ Column C
 	- Office buildings (Table 6.2.3; BNBC 2020)
 		- File and computer rooms shall be designed for heavier loads based on anticipated occupancy
 			- Lobbies and first-floor corridors = $4.8 kN/m^2$ 
+			- Offices =$2.4 kN /m^2$
+			- Corridors above first floor =$3.8kN /m^2$
+		- Taking Offices $2.4kN /m^2 *20.885 =50.1lb /ft^2$
+			- $50.1*33*17.$
