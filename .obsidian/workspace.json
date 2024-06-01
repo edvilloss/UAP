@@ -149,6 +149,14 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "be916e45e79a83a5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -166,11 +174,13 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "c9b53c9aedc70873",
   "lastOpenFiles": [
+    "Assets/Attachments/Pasted image 20240602052828.png",
     "Projects/CE 417, Steel Column.md",
     "Assets/Attachments/Pasted image 20240602005039.png",
     "Assets/Attachments/Pasted image 20240602004925.png",

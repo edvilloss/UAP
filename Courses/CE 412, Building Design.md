@@ -126,8 +126,6 @@ $$
 	- From table 6.2.10:
 		- $\alpha = 9.5$
 		- $z_g = 900 ft$
-		- 
-
 
 | Story height (z), ft | K_z   |
 | -------------------- | ----- |
@@ -139,3 +137,17 @@ $$
 | 60                   | 1.13  |
 | 70                   | 1.17  |
 | 80                   | 1.207 |
+- Topographic Factor, Kzt
+	- For Flat Terrain, Kzt = 1.0
+- Gust Effect Factor, G or Gf
+	- Fundamental Period of the building, T = 0.88 sec ≤ 1.0 (Rigid Building)
+	- G = 0.85
+- Wind Directionality Factor, Kd
+	- From table 6.2.12: for main wind force resisting system, Kd = 0.85
+ ![[Pasted image 20240602052828.png]]
+- External Pressure Coefficient, Cpe
+	- From figure 6.2.6:
+		- In x-direction
+			- L = 16.067*5=80.335  ft
+			- B = 16.067*3=48.201  ft
+			- 
