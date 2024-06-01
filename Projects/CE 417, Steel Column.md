@@ -19,4 +19,6 @@ Column C
 		- 45 lb/ft
 		- $\frac{45*(33+17.5)}{1000}*4=9.09k$
 - Live Loads
-	- 
+	- Office buildings (Table 6.2.3; BNBC 2020)
+		- File and computer rooms shall be designed for heavier loads based on anticipated occupancy
+			- Lobbies and first-floor corridors = $4.8 kN/m^2$ 
