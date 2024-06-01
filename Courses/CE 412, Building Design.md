@@ -229,3 +229,26 @@ $$
 	- ![[Pasted image 20240602055357.png]]
 	- ![[Pasted image 20240602055403.png]]
 	- ![[Pasted image 20240602055410.png]]
+14. Definition of load combinations
+	- Unfactored load combinations
+		- D: (SW + FF + FPW)
+		- L: (LL42 + LL63 + RPW + LL100 + OHWT + Lift)
+		- D + L: (SW + FF + FPW + LL42 + LL63 + RPW + LL100 + OHWT + Lift)
+		- Seismic weight: (SW + FF + FPW) + 0.25(LL42 + LL63 + RPW) + 0.5(LL100 + OHWT + Lift)
+		- D + 0.5L + 0.7W
+	- Factored load combinations:
+		- As per BNBC 2020 (75 combos or 99 combos): see lecture notes
+15. Check model automatically in ETABS as well as recheck manually
+16. Run analysis and check for any warning (check analysis run log)
+17. Check analysis results and compare with approximate manual calculation
+18. Check for serviceability and other criteria as per BNBC 2020
+19. Check for building irregularities (Plan and vertical)
+20. Design concrete frames (Columns and Beams)
+21. Design concrete shear walls
+22. Design concrete slabs
+23. Design foundation (shallow foundation: footing or mat)
+24. Export design outputs from ETABS (as .xlsx and .docx)
+# Building Irregularities
+## Plan Irregularity
+- Torsional Irregularity
+- 
