@@ -12,4 +12,6 @@ Most critical Column should be the bottom story B2 and C2
 	- 25 psf (electrical/mechanical and floor finish)
 		- $\frac{25*35*33}{1000}=28.875k$
 	- 12 psf (permanent partition load)
-		- $$
+		- $\frac{12*35*33}{1000}=13.86k$
+	- Beam
+		- 
