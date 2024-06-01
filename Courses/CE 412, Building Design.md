@@ -48,5 +48,16 @@ $$
 	- Size-of-liftcore = \frac{S}{2}+\frac{S}{2}
 $$
 $$
-- Passenger-weight
+- Passenger-weight: 75 kg
 $$
+$$
+- No-of-passenger: 20
+$$
+$$
+-Unit -load-on-lift-machine-room: \frac{4*PassengerWeight}{Sizeofeach lift core}
+$$
+$$
+=\frac{4*20*75}{\frac{16.067}{2}+\frac{16.067}{2}}=92.9kg /sft *2.205=204.96 psf
+$$
+- Gardening Load: 120 pcf (minimum as per BNBC: 105 psf):not recommended
+# Earthquak
