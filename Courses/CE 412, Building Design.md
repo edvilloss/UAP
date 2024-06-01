@@ -120,4 +120,24 @@ $$
 - Velocity Pressure Exposure Coefficient, Kz
 	- Exposure Category ==A==/B/C
 		- B for Etabs
-	- 
+	- From Table 6.2.11:
+		- For 15 ft ≤ z ≤ z_g: $K_z = 2.01 \left( \frac{z}{Z_g} \right)^\left( \frac{2}{\alpha} \right)$
+		- For z &lt; 15 ft: $K_z = 2.01 \left( \frac{15}{Z_g} \right)^\left( \frac{2}{\alpha } \right)$
+	- From table 6.2.10:
+		- $\alpha = 9.5$
+		- $z_g = 900 ft$
+| Story Height (z), ft | $K_{z}$ |
+|-------------------|----|
+| 10 | 0.89
+|   |   |
+|---|---|
+|Story Height (z), ft|Kz|
+|10|0.849|
+|20|0.901|
+|30|0.982|
+|40|1.04|
+|50|1.09|
+|60|1.13|
+|70|1.17|
+|80|1.207|
+		- 
