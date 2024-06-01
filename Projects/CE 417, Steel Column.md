@@ -7,7 +7,7 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ![[Pasted image 20240601220543.png]]
 
 ## Answer 1
-Column C
+### Load on column C
 - Dead Loads
 	- 6" thick slab (slab area 33'X17.5')
 		- $\frac{33*17.5*6}{12}\cdot(150/1000)*4=173.25k$
@@ -26,4 +26,7 @@ Column C
 			- Corridors above first floor =$3.8kN /m^2$
 		- Taking Offices $2.4kN /m^2 *20.885 =50.1lb /ft^2$
 			- $\frac{50.1*33*17.5*4}{1000}=115.73k$
-- 
+- LRFD load 
+	- 1.2DL+1.6LL
+	- $1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
+### 
