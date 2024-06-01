@@ -52,5 +52,5 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 - $506.54k=\phi*F_{cr}*A_{g}$
 	- $A_{g}=\frac{506.54}{29.48*0.9}=19.09 in^2$
 - W14X68
-	- $A_{g}=24in^2$
-	- $r_{y}=2.48in$
+	- $A_{g}=20in^2$
+	- $r_{y}=2.46in$
