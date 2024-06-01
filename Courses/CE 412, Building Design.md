@@ -163,7 +163,26 @@ $$
 - Internal Pressure Coefficient, Cpi
 	- Not Required
 - Calculation of Velocity Pressure, q$_z$ (eqn. 6.2.17)
-	- $q_z = 0.00256 I K_z K_z K_d V^2 (lb/ft2)$
+	- $q_z = 0.00256 I K_z K_{zt} K_d V^2 (lb/ft2)$
 	- $=0.00256*1.0*K_z*1.0*0.85*1142 = 28.28 K_z$
 - Calculation of Design Wind Pressure, Pz
 	- In x-direction
+		- $P_z = q_z G C_{p-ww} + q_h G C_{p-lw}$
+		- $=28.28 K_z* 0.85*0.8 + 28.28  K_h*0.85*0.366$
+		- $= 19.23 K_z + 8.8 K_h$
+	- In y-direction
+		-  $P_z = q_z G C_{p-ww} + q_h G C_{p-lw}$
+		- $=28.28 K_z* 0.85*0.8 + 28.28  K_h*0.85*0.5$
+		- $= 19.23 K_z + 12.02 K_h$
+
+
+| Story Height (z), ft | Kz    | qz<br><br>(lb/ft2) | Pz (x-dir.)<br><br>(lb/ft2) | Pz (y-dir.)<br><br>(lb/ft2) |
+| -------------------- | ----- | ------------------ | --------------------------- | --------------------------- |
+| 10                   | 0.849 | 24.009             | 23.8                        | 26.53                       |
+| 20                   | 0.901 | 25.48              | 25.26                       | 28.156                      |
+| 30                   | 0.982 | 27.77              |  27.525                     |                             |
+| 40                   |       |                    |                             |                             |
+| 50                   |       |                    |                             |                             |
+| 60                   |       |                    |                             |                             |
+| 70                   |       |                    |                             |                             |
+| 80                   |       |                    |                             |                             |
