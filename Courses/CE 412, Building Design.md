@@ -89,8 +89,15 @@ $$
 	- For 5% damping, η = 1
 - Calculation of Normalized acceleration response spectrum, $C_s$
 	- According to Equation 6.2.35c
-		- $C_s = 2.5 S η \left( \frac{T_c}{T} \right) =2.5*1.35*1*\left( \frac{0.8}{0.88} \right)0.8/$
+		- $C_s = 2.5 S η \left( \frac{T_c}{T} \right) =2.5*1.35*1*\left( \frac{0.8}{0.88} \right)=3.068$
 - Determination of Seismic Dead Loads (Mass Source), W
 	- W = 100% DL + 25% LL (≤63psf) + 50% LL ( &gt;63psf)
-	- W = 300psf x Total Floor Area = 7695000 lb = 7695kip
-	- 
+	- W = ==300psf== x Total Floor Area = 7695000 lb = 7695kip
+- Determination of Seismic Base Shear, V
+	- $V=\frac{2}{3}*\left( \frac{ZIC_{S}}{T} \right)W=\frac{2}{3}*\left( \frac{0.28*1*3.068}{7} \right)*W=0.08181W$
+## Alternative Method to calculate Seismic Base Shear (ASCE 7_ETABS)
+- Calculation of Spectral Response Acceleration Parameter Ss and S1
+	- From table 6.C.1
+		- $S_{s}=0.7$
+		- $S_{1}=0.28$
+- 
