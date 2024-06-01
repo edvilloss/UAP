@@ -36,4 +36,10 @@
 		- For tiles with 2 to 3 inches thickness: 20 to 30 psf: use 25 psf
 		- For lime terrace with 4 inches thickness: 40 psf: use 25 psf)
 ### Live Loads
-- Floor 
+- Floor Live load (LL42): 42 psf
+- Staircase Live Load (LL100): 100 psf
+- Roof Live Load (LL63): 63 psf
+- Random Partition Wall (RPW): 25 psf
+- OHWT (H = 5ft): 312 psf
+- Lift Load: LT
+	- 
