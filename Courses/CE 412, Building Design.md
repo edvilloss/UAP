@@ -42,4 +42,11 @@
 - Random Partition Wall (RPW): 25 psf
 - OHWT (H = 5ft): 312 psf
 - Lift Load: LT
-	- 
+	- Lift weight: $2*(SW of lift + Passenger Weight)+=4* passenger Weight$ (Note: weight per person: 75 kg) $=4*20*75$ (20 passenger limit)
+	- Calculation of lift load 
+$$
+	- Size-of-liftcore = \frac{S}{2}+\frac{S}{2}
+$$
+$$
+- Passenger-weight
+$$
