@@ -28,5 +28,5 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 			- $\frac{50.1*33*17.5*4}{1000}=115.73k$
 - LRFD load 
 	- 1.2DL+1.6LL
-	- $1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
+	- $\phi P= 1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
 ### K factor
