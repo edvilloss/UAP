@@ -186,3 +186,13 @@ $$
 | 60                   | 1.13       | 31.956             | 31.673                      | 35.312                      |
 | 70                   | 1.17       | 33.087             | 32.795                      | 36.562                      |
 | 80                   | 1.207 = Kh | 34.133             | 33.832                      |  37.718                     |
+# Mathematical Modeling of the super structure utilizing FEA software ETABS (v16.2.1)
+## Given Data
+- Material Strength (f’c &amp; fy)
+- Building Geometry (Grid, story) and Location and orientation of columns, beams, shear walls and slab extents as well as their dimensions.
+- Gravity loads: DL & LL (as per occupancy)
+- Lateral loads: Wind and Earthquake loads
+## Steps to model (Define, Draw, Assign) the super structure via ETABS v16.2.1
+1. Grid and Story data
+2. Definition of Material properties
+	
