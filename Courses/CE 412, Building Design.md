@@ -511,3 +511,7 @@ $$
 				- $M_{R}=\frac{8424.804*(16.067*3)}{2}=03041.99 k-ft$
 		- Project Report
 			- 4.3 Auto Seismic Loading
+				- Ex1 and Ey1
+				- ![[Pasted image 20240602151159.png]]
+				- 
+				- 
