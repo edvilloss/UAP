@@ -522,5 +522,10 @@ $$
 2. Accidental torsional moment(E)
 	- Already considered in Torsional Irregularities
 3. P-$\Delta$ effect (W and E)
-4. Building Separation (E)
-5. Uplift Effect (W and E)
+	- BNBC 2015 (Section 2.5.7.9)
+		- $\theta = \frac{P_{x}\Delta}{V_{x}h_{sx}C_{d}}\leq 0.1$ (Wind)
+			- $\theta = \frac{P_{x}\Delta}{V_{x}h_{sx}}\leq 0.1$ (EQ)
+		- $\theta_{max}=\frac{0.5}{\beta C_{d}}\leq_{0}.25$
+				-
+1. Building Separation (E)
+2. Uplift Effect (W and E)
