@@ -435,6 +435,6 @@ $$
 2. Maximum lateral displacement for Wind Load
 	- The overall sway (horizontal deflection) at the top level shall not exceed (1/500)\*H 
 	- Where, H = total height of the building above ground (Section 1.5.6.2)
-	- D+0.5L+0.7W: $\frac{H}{500}=\frac{80+10}{500}=2.16$
+	- D+0.5L+0.7W: $\frac{H}{500}=(\frac{80+10}{500})*12=2.16 inch$
 	- 80+10: story height + OHWT
 	- 
