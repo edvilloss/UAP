@@ -2,5 +2,6 @@
   "templater-obsidian",
   "obsidian-latex-suite",
   "obsidian-git",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "better-export-pdf"
 ]
