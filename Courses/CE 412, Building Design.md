@@ -469,7 +469,7 @@ $$
 # Serviceability Criteria
 1. Vertical Deflection Limits (D+L and L)
 	- Table 6.1.2: Deflection Limits
-		- D+L: $\frac{16.067*2}{240}=0.803inch$
+		- D+L: $\frac{16.067*12}{240}=0.803inch$
 		- L: $\frac{16.067*12}{360}=0.54inch$
 	- From Loads
 		- Show Deformation
