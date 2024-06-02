@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,6 +168,8 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
+    "Assets/Attachments/Pasted image 20240603011617.png",
+    "Assets/Attachments/Pasted image 20240603011553.png",
     "Projects/CE 417, Steel Column.md",
     "Courses/CE 412, Building Design.md",
     "Courses/CE 531, GIS.md",
@@ -182,7 +185,6 @@
     "Assets/Attachments/Pasted image 20240602140403.png",
     "Assets/Attachments/Pasted image 20240602140001.png",
     "Assets/Attachments/Pasted image 20240602133849.png",
-    "Assets/Attachments/Pasted image 20240602133440.png",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",

@@ -475,7 +475,8 @@ $$
 		- Show Deformation
 			- Load Combination
 				- UZ
-					- OK ![[Pasted image 20240602131937.png]]
+					- OK ![[Pasted image 20240603011553.png]] (Live only)
+					- Ok ![[Pasted image 20240603011617.png]] (D+L)
 2. Maximum lateral displacement for Wind Load
 	- The overall sway (horizontal deflection) at the top level shall not exceed (1/500)\*H 
 	- Where, H = total height of the building above ground (Section 1.5.6.2)
