@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md"
+                "file": "Courses/CE 412, Building Design.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "aeeae2b85b1c8ef1",
   "lastOpenFiles": [
+    "Projects/CE 417, Steel Column.md",
     "Courses/CE 412, Building Design.md",
     "Courses/CE 531, GIS.md",
     "Templates/Table of Contents.md",
@@ -183,7 +184,6 @@
     "Assets/Attachments/Pasted image 20240602140001.png",
     "Assets/Attachments/Pasted image 20240602133849.png",
     "Assets/Attachments/Pasted image 20240602133440.png",
-    "Projects/CE 417, Steel Column.md",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
