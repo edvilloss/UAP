@@ -596,4 +596,5 @@ $$
 	- Section Taken at $\frac{L_{w}}{2} or\frac{H_{w}}{2}$ (which ever is less)from the base is considered as critical secton
 		- $\frac{L_{w}}{2}=\frac{S_{w}}{4}=3.75'$
 		- $\frac{H_{w}}{2}=\frac{86}{2}=43'$
-		- 
+		- Nominal Shear Force, $V=\frac{49.65}{0.75}=66.2$
+	- 
