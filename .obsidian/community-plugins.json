@@ -2,5 +2,7 @@
   "templater-obsidian",
   "obsidian-latex-suite",
   "obsidian-git",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-enhancing-export",
+  "obsidian-pandoc"
 ]
