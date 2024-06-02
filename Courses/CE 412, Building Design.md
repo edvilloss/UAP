@@ -484,4 +484,7 @@ $$
 			- Increase Column dim in y axis
 # Additional Requirements
 1. Overturning Moment (W and E)
-2. 
+	- Report
+		- Project Report
+			- 4.2 Auto Wind Loading
+				- 
