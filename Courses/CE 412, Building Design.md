@@ -96,6 +96,8 @@ $$
 - Determination of Seismic Dead Loads (Mass Source), W
 	- W = 100% DL + 25% LL (≤63psf) + 50% LL ( &gt;63psf)
 	- W = ==300psf== x Total Floor Area = 7695000 lb = 7695kip
+		- Total Base Share / Total Floor Area $\approx 300$
+		- $(16.067*5)*(16.067*3)*8-()$
 - Determination of Seismic Base Shear, V
 	- $V=\frac{2}{3}*\left( \frac{ZIC_{S}}{T} \right)W=\frac{2}{3}*\left( \frac{0.28*1*3.068}{7} \right)*W=0.08181W$
 ## Alternative Method to calculate Seismic Base Shear (ASCE 7_ETABS)
