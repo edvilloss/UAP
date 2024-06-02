@@ -518,4 +518,5 @@ $$
 					- Ex1 and Ey1
 					- ![[Pasted image 20240602151159.png]]
 					- $M\_{0}=6*2.72+16*16.992+26*30.168+36*44.436+46*59.357+56*66.77+66*81.188+76*96.03+86*84.91+96*28.64=31850.2 k-ft$
-2. Accidental torsional moment
+2. Accidental torsional moment(E)
+	- Already considered in Torsional Irregularities
