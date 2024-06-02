@@ -261,6 +261,7 @@ $$
 				- Displacements
 					- Max/AVG
 					- Need Ratio
+					- Not Ok
 					
 | Story | Load Case/Combo | Item       | Max Drift | Avg Drift | Ratio |
 | ----- | --------------- | ---------- | --------- |:---------:| ----- |
@@ -470,3 +471,15 @@ $$
 5. Story drift for Earthquake Load
 	- Table 6.2.21: 
 	- Allowable Story Drift Limit (Δ): 0.02
+	- rom Etabs we get $\delta_{ex}$
+		- $\delta_{x}=\frac{C_{d}*\delta_{ex}}{I}$
+		- $here, C_{d}=4.5$
+	- Display 
+		- Story Response Plot 
+			- Display Type: Maximum Story drift
+			- ex1 ~ ey3 (Maximum)
+			- ![[Pasted image 20240602140403.png]] (ey3)
+			- $0.0048*4.5=0.021$
+			- Not Ok
+			- Increase Column dim in y axis
+	- 
