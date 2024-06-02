@@ -428,4 +428,13 @@ $$
 		- D+L: $\frac{16.067*2}{240}=0.803inch$
 		- L: $\frac{16.067*12}{360}=0.54inch$
 	- From Loads
-		- 
+		- Show Deformation
+			- Load Combination
+				- UZ
+					- OK ![[Pasted image 20240602131937.png]]
+2. Maximum lateral displacement for Wind Load
+	- The overall sway (horizontal deflection) at the top level shall not exceed (1/500)\*H 
+	- Where, H = total height of the building above ground (Section 1.5.6.2)
+	- D+0.5L+0.7W: $\frac{H}{500}=\frac{80+10}{500}=2.16$
+	- 80+10: story height + OHWT
+	- 
