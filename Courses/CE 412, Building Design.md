@@ -636,7 +636,7 @@ $$
 	- The depth chosen for design is,$d=0.8L_{w}=0.8*\left( \frac{16.067}{2} \right)*12=77.12 inch$
 	- The nominal shear force cannot be greater than $10*\sqrt{f_{c}'  }hd$
 		- Here,$10*\sqrt{f_{c}'  }hd=10*\sqrt{\frac{3,4}{1000}  }10*77.12=450kips\ge{6}6.2kips$ (Ok)
-	- Since there is no net tensile force on the section, $V_{c}$ can be taken as $=2\sqrt{ f_{c}' }hd=2\sqrt{ \frac{3.4}{1000} }*10*77.12=89.94kops$
+	- Since there is no net tensile force on the section, $V_{c}$ can be taken as $=2\sqrt{ f_{c}' }hd=2\sqrt{ \frac{3.4}{1000} }*10*77.12=89.94kips$
 	- Here V is not $\le \frac{V_{c}}{2}$ then the minimum horizontal reinforcements are not sufficient
 	- Horizontal shear reinforcement
 		- Spacing (using 2-legged \#3 )
