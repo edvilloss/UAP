@@ -245,6 +245,7 @@ $$
 		- OHWT\_livel; outer frame 500 lb/ft; 312; M1
 		- Lift\_live; Calculated value; M1
 7. Definition and assignment of diaphragm (area diaphragm)
+8. Definition of Wind loads (as per BNBC: ASCE 7-05)
 	1. Wx1; 0 degree; case 1
 	2. wx2; 0 degree; case 2
 	3. wx3; 0 degree; case 3
@@ -253,9 +254,14 @@ $$
 	6. wy2; 90 degree; case 2
 	7. wy3; 90 degree; case 3
 	8. wy4; 90 degree; case 4
-8. Definition of Wind loads (as per BNBC: ASCE 7-05)
 9. Definition of Mass source (Seismic dead loads)
 10. Definition of earthquake loads (as per ASCE 7-05)
+	1. ex1; x dir
+	2. ex2; x + eccentricity
+	3. ex3; x - eccentricity
+	4. ey1; y dir
+	5. ey2; x + eccentricity
+	6. ey3; x - eccentricity
 11. Assignment of gravity loads (except self-weight)
 	- FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
 	- FPW as line load
