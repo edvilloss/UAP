@@ -594,7 +594,9 @@ $$
 - Design Steps (Y dir)
 	- Assumed thickness of the wall, h = 10 inch (The thickness of the shear wall must be at least 8 inch)
 	- Section Taken at $\frac{L_{w}}{2} or\frac{H_{w}}{2}$ (which ever is less)from the base is considered as critical secton
-		- $\frac{L_{w}}{2}=\frac{S_{w}}{4}=3.75'$
+		- $\frac{L_{w}}{2}=\frac{S_{w}}{4}=4.02'$
 		- $\frac{H_{w}}{2}=\frac{86}{2}=43'$
 		- Nominal Shear Force, $V=\frac{49.65}{0.75}=66.2$
-	- 
+	- The depth chosen for design is,$d=0.8L_{w}=0.8*\left( \frac{16.067}{2} \right)*12=77.12 inch$
+	- The nominal shear force cannot be greater than $10*\sqrt{f_{c}'  }hd$
+		- Here,$10*\sqrt{f_{c}'  }hd=10*\sqrt{\frac{3,4}{1000}  }10*77.12=450kip\g$
