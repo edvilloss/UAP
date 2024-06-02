@@ -235,7 +235,7 @@ $$
 6. Definition of dead and live loads
 	- Dead loads:
 		- SW (dead)\_dead\_self weight multiplier-1
-		- FF\_super dead\_self weight multiplier-0
+		- FF\_super dead\_self weight multiplier-0 (25psf); Landing ()
 		- FPW_ super dead_self weight multiplier-0
 	- Live Loads
 		- RPW_live
