@@ -437,4 +437,15 @@ $$
 	- Where, H = total height of the building above ground (Section 1.5.6.2)
 	- D+0.5L+0.7W: $\frac{H}{500}=(\frac{80+10}{500})*12=2.16 inch$
 	- 80+10: story height + OHWT
-	- 
+	- Display
+		- Story Response Plot
+			- Display Type: Maximum Story disp
+			- D+0.5L+0.7Wx1 ~ D+0.5L+0.7Wy4 (Maximum)
+				- ![[Pasted image 20240602133440.png]](Wx4)
+				- OK
+3. Story drift for Wind Load (Section 1.5.6.1)
+	- Drift ≤ 0.004
+	- Display 
+	- Story Response Plot 
+	- Display Type: Maximum Story drift 
+	- D+0.5L+0.7Wx1 ~ D+0.5L+0.7Wy4 (Maximum)
