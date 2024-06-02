@@ -332,4 +332,40 @@ $$
 	- All the shear walls are parallel and symmetric with centroidal orthogonal directions.
 ## Vertical Irregularity
 - Stiffness Irregularity-Soft Story
-	- 
+	- Ex1 and Ey1
+	- Show Table
+		- Results
+			- Structural Results
+				- Story Stiffness
+|Story|Load Case|||Stiffness Xlb/ft|||Stiffness Y lb/ft|
+|---|---|---|---|---|---|---|---|
+|Tank|ex1|||1470955.11|||0|
+|Roof|ex1|||6499876.52|||0|
+|7F|ex1|||11582439.17|||0|
+|6F|ex1|||16005368.36|||0|
+|5F|ex1|||20158677.12|||0|
+|4F|ex1|||24845677.35|||0|
+|3F|ex1|||30549239.55|||0|
+|2F|ex1|||39532567.06|||0|
+|1F|ex1|||70790638.67|||0|
+|GF|ex1|||132583174.83|||0|
+|Tank|ey1|||0|||1037490.19|
+|Roof|ey1|||0|||4015718.98|
+|7F|ey1|||0|||7147017.78|
+|6F|ey1|||0|||9519699|
+|5F|ey1|||0|||11536668.71|
+|4F|ey1|||0|||13855758.09|
+|3F|ey1|||0|||16827769.67|
+|2F|ey1|||0|||22075559.86|
+|1F|ey1|||0|||42512505.74|
+|GF|ey1|||0|||95282518.33|
+- Mass Irregularity
+	- Mass irregularity exists if mass of a story &gt; 200% mass of adjacent stories 
+	- As per occupancy (Residential building), there is no mass irregularity
+- Vertical Geometric Irregularity
+	- Irregularity exists if the dimension of the lateral force resisting system at any story is more than 130% of that for any adjacent story.
+	- There is no Vertical Geometric Irregularity in the building
+- Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
+	- Irregularity exists if the offset is greater than the width (d) or there exists a reduction in stiffness of the story below.
+	- There is no Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force in the building
+- Discontinuity in Capacity-Weak Story
