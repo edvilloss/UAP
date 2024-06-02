@@ -526,6 +526,16 @@ $$
 		- $\theta = \frac{P_{x}\Delta}{V_{x}h_{sx}C_{d}}\leq 0.1$ (Wind)
 			- $\theta = \frac{P_{x}\Delta}{V_{x}h_{sx}}\leq 0.1$ (EQ)
 		- $\theta_{max}=\frac{0.5}{\beta C_{d}}\leq_{0}.25$
-				-
+		- $\theta$=Stability Coefficient
+		- 𝑃𝑥 = D + L at and above level 𝑥;
+		- Δ = Design story drift occurring simultaneously with 𝑉𝑥
+		- Δ𝑒 = Design story drift (Elastic)
+		- 𝑉𝑥 = Storey shear force acting between levels 𝑥 and 𝑥 − 1
+		- ℎ𝑠𝑥 = Storey height below level 𝑥
+		- β = 1.0
+		- If Stability Coefficient, θ ≤ 0.1, P- effect need not to be considered
+		- If Stability Coefficient, 0.1 ≤ θ ≤ 𝜃𝑚𝑎𝑥, P- effect need to be considered
+		- If Stability Coefficient, θ $\le 𝜃𝑚𝑎𝑥$, structure need to be redesigned
+		- 
 1. Building Separation (E)
 2. Uplift Effect (W and E)
