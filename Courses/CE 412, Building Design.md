@@ -487,4 +487,8 @@ $$
 	- Report
 		- Project Report
 			- 4.2 Auto Wind Loading
-				- 
+				- Wx1
+				- ![[Pasted image 20240602142111.png]]
+					- $M_{0}=16*9.28+26*9.71+36*10.41$
+				- Wy1
+				- ![[Pasted image 20240602142138.png]]
