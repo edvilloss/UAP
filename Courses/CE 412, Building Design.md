@@ -572,3 +572,7 @@ $$
 	- Check Column or SW base vertical reaction force for 0 85 \*DL
 	- Soil load above footing area may be added with 0 85 times DL to check uplift effect
 # Design of Shear Wall
+- Assume base shear from earthquake load is 5% of total gravity loads W (D+L)
+- $Here, W = [8*(5S*3S) – 3*(2S*S)]*300/1000 kips$
+	- $W=\frac{(8*(5*16.067*3*16.057)-3*(16.067*2*16.067))*300}{1000}=8828.68kips$
+- Therefore, $V=0.05*8828.68=$
