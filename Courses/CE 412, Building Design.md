@@ -546,7 +546,7 @@ $$
 				- ![[Pasted image 20240602142138.png]]
 				- $M_{0}=16*17.864+26*18.59+36*19.754+46*20.69+56*21.467+66*22.139+76*22.735+86*33.457=9700.54 k-ft$
 				- $M_{R}=\frac{8424.804*(16.067*3)}{2}=203041.99 k-ft$
-		- (Section 2.5.7.4)
+		- For Earthquake loads(Section 2.5.7.4)
 			-  $F=\frac{W_{x}(h_{x})^k}{\sum_{n=1}^{\infty}W_{i}(h_{i})^k}*V=\frac{(h_{x})^k}{\sum_{n=1}^{\infty}(h_{i})^k}*V$
 				- Where, k = 1 For structure period ≤ 0.5s
 					- = 2 for structure period ≥ 2.5s
