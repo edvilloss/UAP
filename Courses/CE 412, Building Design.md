@@ -444,7 +444,7 @@ $$
 				- ![[Pasted image 20240602133440.png]](Wx4)
 				- OK
 3. Story drift for Wind Load (Section 1.5.6.1)
-	- Drift ≤ 0.004
+	- Drift ≤ 0.004 for Tn>0.7
 	- Display 
 		- Story Response Plot 
 			- Display Type: Maximum Story drift 
