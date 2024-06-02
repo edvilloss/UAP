@@ -579,3 +579,15 @@ $$
 - Shear wall will take 50% and 45% of total base shear in x and y directions, respectively for earthquake loads.
 - Base shear in walls along x-direction $= Vx = 0.5*441.4 = 220.7 kips$
 - Base shear in walls along y-direction $= Vy = 0.45*441.4 = 198.63 kips$
+
+| Story | H i (ft) | F i (kips)   | Fx (kips) | Fy (kips) |
+| ----- | -------- | ------------ | --------- | --------- |
+| GF    | 6        | F0 = 0.0095V | 1.8       | 1.6       |
+| 1F    | 16       | F1= 0.0302V  | 5.8       | 5.2       |
+| 2F    | 26       | F2= 0.0542V  | 10.4      | 9.4       |
+| 3F    | 36       | F3= 0.0799V  | 15.4      | 13.8      |
+| 4F    | 46       | F4= 0.1070V  | 20.6      | 18.5      |
+| 5F    | 56       | F5= 0.1350V  | 26.0      | 23.4      |
+| 6F    | 66       | F6= 0.1643V  | 31.6      | 28.5      |
+| 7F    | 76       | F7= 0.1940V  | 37.3      | 33.6      |
+| Roof  | 86       | F8= 0.2250V  | 43.3      | 39.0      |
