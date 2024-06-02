@@ -234,17 +234,25 @@ $$
 5. Draw the structural geometry (column, shear wall, beam and slab)
 6. Definition of dead and live loads
 	- Dead loads:
-		- SW (dead)\_dead\_self weight multiplier-1
-		- FF\_super dead\_self weight multiplier-0 (25psf); Landing (56 psf)
+		- SW (dead)\_dead\_self weight multiplier-1; M1
+		- FF\_super dead\_self weight multiplier-0 (25psf); Landing (56 psf); M1
 		- FPW_ super dead_self weight multiplier-0; (437.5 lb/ft) except roof all beam; parapet 200 lb/ft; M1
 	- Live Loads
 		- RPW_live; all slab except roof + staircase + stare shape; M0.25
 		- LL42_live; 43 all slab, 63 roof; M0.25
 		- LL100\_live; 100 staircase ; M0.5
 		- LL63\_live; 63 roof M0.25
-		- OHWT\_livel; outer frame 500 lb/ft; M1
+		- OHWT\_livel; outer frame 500 lb/ft; 312; M1
 		- Lift\_live; Calculated value; M1
 7. Definition and assignment of diaphragm (area diaphragm)
+	1. Wx1; 0 degree; case 1
+	2. wx2; 0 degree; case 2
+	3. wx3; 0 degree; case 3
+	4. wx4; 0 degree; case 4
+	5. wy1; 90 degree; case 1
+	6. wy2; 90 degree; case 2
+	7. wy3; 90 degree; case 3
+	8. wy4; 90 degree; case 4
 8. Definition of Wind loads (as per BNBC: ASCE 7-05)
 9. Definition of Mass source (Seismic dead loads)
 10. Definition of earthquake loads (as per ASCE 7-05)
