@@ -363,7 +363,25 @@ $$
 2. Mass Irregularity
 	- Mass irregularity exists if mass of a story &gt; 200% mass of adjacent stories 
 	- As per occupancy (Residential building), there is no mass irregularity
-3. Vertical Geometric Irregularity
+	- Show Table
+		- Model
+			- Structural Data
+				- Mass Summary
+					- Mass Summary by Story
+|Story|UX lb-s²/ft|UY lb-s²/ft|UZ lb-s²/ft|
+|---|---|---|---|
+|Tank|5403.02|5403.02|0|
+|Roof|18260.29|18260.29|0|
+|7F|23923.03|23923.03|0|
+|6F|23923.03|23923.03|0|
+|5F|23923.03|23923.03|0|
+|4F|26876.43|26876.43|0|
+|3F|26934.71|26934.71|0|
+|2F|26934.71|26934.71|0|
+|1F|27034.57|27034.57|0|
+|GF|13904.43|13904.43|0|
+|Base|859.39|859.39|0|
+3.  Vertical Geometric Irregularity
 	- Irregularity exists if the dimension of the lateral force resisting system at any story is more than 130% of that for any adjacent story.
 	- There is no Vertical Geometric Irregularity in the building
 4. Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
@@ -400,3 +418,4 @@ $$
 |1F|ey1|Bottom||0.0001059|-508494.58|
 |GF|ex1|Bottom||-511214.62|0|
 |GF|ey1|Bottom||0.0001059|-511214.61|
+# Serviceability Criteria
