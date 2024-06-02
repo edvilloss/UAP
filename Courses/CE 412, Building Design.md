@@ -250,7 +250,7 @@ $$
 24. Export design outputs from ETABS (as .xlsx and .docx)
 # Building Irregularities
 ## Plan Irregularity
-- Torsional Irregularity
+1. Torsional Irregularity
 	- For every EQ loads(if more than 1.2 and Less than 1.4; $\frac{\Delta max}{\Delta avg}$)
 	- Show Table
 		- Analysis
@@ -308,7 +308,7 @@ $$
 |1F|ey1|Diaph D1 Y|0.001888|0.001196|1.578|
 |1F|ey2|Diaph D1 Y|0.001447|0.001234|1.173|
 |1F|ey3|Diaph D1 Y|0.002755|0.001194|2.307|
-- Re-entering Corners
+2. Re-entering Corners
 	- Building is irregular in terms of re-entrant corners if A/L>0.2
 
 | Story | Global X |        |     |        | Global Y |        |      |        |
@@ -322,16 +322,16 @@ $$
 | 5F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
 | 6F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
 | Roof  | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
-- Diaphragm Discontinuity
+3. Diaphragm Discontinuity
 	- Diaphragm discontinuity exists if opening area > 1/2 Total Floor Area
 	- There is no opening except stair and lift in the plan of the building.
 	- In terms of diaphragm discontinuity, the building is regular
-- Out of Plane Offsets
+4. Out of Plane Offsets
 	- There is no out of plane offset irregularity in the building
-- Non-parallel System
+5. Non-parallel System
 	- All the shear walls are parallel and symmetric with centroidal orthogonal directions.
 ## Vertical Irregularity
-- Stiffness Irregularity-Soft Story
+1. Stiffness Irregularity-Soft Story
 	- Ex1 and Ey1
 	- Show Table
 		- Results
@@ -359,13 +359,16 @@ $$
 |2F|ey1|||0|||22075559.86|
 |1F|ey1|||0|||42512505.74|
 |GF|ey1|||0|||95282518.33|
-- Mass Irregularity
+2. Mass Irregularity
 	- Mass irregularity exists if mass of a story &gt; 200% mass of adjacent stories 
 	- As per occupancy (Residential building), there is no mass irregularity
-- Vertical Geometric Irregularity
+3. Vertical Geometric Irregularity
 	- Irregularity exists if the dimension of the lateral force resisting system at any story is more than 130% of that for any adjacent story.
 	- There is no Vertical Geometric Irregularity in the building
-- Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
+4. Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
 	- Irregularity exists if the offset is greater than the width (d) or there exists a reduction in stiffness of the story below.
 	- There is no Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force in the building
-- Discontinuity in Capacity-Weak Story
+5. Discontinuity in Capacity-Weak Story
+	- Story Force
+	- Show Table
+		- 
