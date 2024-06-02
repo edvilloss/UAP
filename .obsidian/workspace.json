@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CE 531, GIS.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CE 531, GIS.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CE 531, GIS.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CE 531, GIS.md"
+                "file": "Courses/CE 412, Building Design.md"
               }
             }
           },
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,6 +166,7 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
+    "Courses/CE 531, GIS.md",
     "Templates/Table of Contents.md",
     "Courses/CE 412, Building Design.md",
     "Courses/CE 423, Earthquake.md",
@@ -183,7 +183,6 @@
     "Assets/Attachments/Pasted image 20240602133440.png",
     "Projects/CE 417, Steel Column.md",
     "Projects",
-    "Courses/CE 531, GIS.md",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
     "Canvases/Model Builder GIS.canvas",

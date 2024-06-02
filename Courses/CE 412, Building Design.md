@@ -1,4 +1,24 @@
-
+# TOC
+>[!SUMMARY] Table of Contents
+>- [[CE 412, Building Design#Materials and Building Geometry, Gravity Load calculations (DL and LL)|Materials and Building Geometry, Gravity Load calculations (DL and LL)]]
+>    - [[CE 412, Building Design#Material Properties|Material Properties]]
+>    - [[CE 412, Building Design#Building Geometry|Building Geometry]]
+>    - [[CE 412, Building Design#Gravity Loads|Gravity Loads]]
+>        - [[CE 412, Building Design#Dead Loads|Dead Loads]]
+>        - [[CE 412, Building Design#Live Loads|Live Loads]]
+>- [[CE 412, Building Design#Earthquake Load Calculation as per BNBC 2020|Earthquake Load Calculation as per BNBC 2020]]
+>    - [[CE 412, Building Design#Base Shear Parameters|Base Shear Parameters]]
+>    - [[CE 412, Building Design#Alternative Method to calculate Seismic Base Shear (ASCE 7_ETABS)|Alternative Method to calculate Seismic Base Shear (ASCE 7_ETABS)]]
+>- [[CE 412, Building Design#Wind Load Calculation as per BNBC 2020|Wind Load Calculation as per BNBC 2020]]
+>- [[CE 412, Building Design#Mathematical Modeling of the super structure utilizing FEA software ETABS (v16.2.1)|Mathematical Modeling of the super structure utilizing FEA software ETABS (v16.2.1)]]
+>    - [[CE 412, Building Design#Given Data|Given Data]]
+>    - [[CE 412, Building Design#Steps to model (Define, Draw, Assign) the super structure via ETABS v16.2.1|Steps to model (Define, Draw, Assign) the super structure via ETABS v16.2.1]]
+>- [[CE 412, Building Design#Building Irregularities|Building Irregularities]]
+>    - [[CE 412, Building Design#Plan Irregularity|Plan Irregularity]]
+>    - [[CE 412, Building Design#Vertical Irregularity|Vertical Irregularity]]
+>- [[CE 412, Building Design#Serviceability Criteria|Serviceability Criteria]]
+>- [[CE 412, Building Design#Additional Requirements|Additional Requirements]]
+>- [[CE 412, Building Design#Design of Shear Wall|Design of Shear Wall]]
 # Materials and Building Geometry, Gravity Load calculations (DL and LL)
 
 ## Material Properties
