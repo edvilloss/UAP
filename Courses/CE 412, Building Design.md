@@ -97,7 +97,9 @@ $$
 	- W = 100% DL + 25% LL (≤63psf) + 50% LL ( &gt;63psf)
 	- W = ==300psf== x Total Floor Area = 7695000 lb = 7695kip
 		- Total Base Share / Total Floor Area $\approx 300$
-		- $(16.067*5)*(16.067*3)*8-()$
+		- $Total Area = (16.067*5)*(16.067*3)*8-(16.067*2)*16.067*4=28912.63ft^2$
+		- $Total base Share (D+L)=8424804lb$
+		- M=291.39 psf
 - Determination of Seismic Base Shear, V
 	- $V=\frac{2}{3}*\left( \frac{ZIC_{S}}{T} \right)W=\frac{2}{3}*\left( \frac{0.28*1*3.068}{7} \right)*W=0.08181W$
 ## Alternative Method to calculate Seismic Base Shear (ASCE 7_ETABS)
@@ -492,5 +494,6 @@ $$
 				- Wx1
 				- ![[Pasted image 20240602142111.png]]
 					- $M_{0}=16*9.28+26*9.71+36*10.41+46*10.97+56*11.44+66*11.84+76*12.201+86*19.355=5294.206 k-ft$
+					- $M_{R}=W_{9}$
 				- Wy1
 				- ![[Pasted image 20240602142138.png]]
