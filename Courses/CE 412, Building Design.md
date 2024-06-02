@@ -75,7 +75,7 @@ $$
 	- According to BNBC 2020, T6.2.19, 
 	- R = ==5 (Concrete IMRF)==
 	- $C_{d}=4.5$
-	- $\Omega_{0}=$
+	- $\Omega_{0}=3$
 - Soil Factor (S) and other related parameters (TB, TC, TD)
 	- According to BNBC 2020, T6.2.16
 		- ==$S = 1.15$==
@@ -462,5 +462,11 @@ $$
 	- Allowable Story Drift Limit (Δ): $0.02H = 0.02*96*12 = 23.04 inch$
 	- Display 
 		- Story Response Plot 
-			- Display Type: Maximum Story drift 
-			- wx1 ~ wy4 (Maximum)
+			- Display Type: Maximum Story disp 
+			- ex1 ~ ey3 (Maximum)
+			- ![[Pasted image 20240602140001.png]](ey3) $*C_{d}$
+			- $4.05*4.5=18.25\leq 23.04$
+			- Ok
+5. Story drift for Earthquake Load
+	- Table 6.2.21: 
+	- Allowable Story Drift Limit (Δ): 0.02
