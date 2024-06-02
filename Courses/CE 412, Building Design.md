@@ -423,3 +423,9 @@ $$
 | GF    | ex1             | Bottom   |     | -511214.62 | 0          |
 | GF    | ey1             | Bottom   |     | 0.0001059  | -511214.61 |
 # Serviceability Criteria
+1. Vertical Deflection Limits (D+L and L)
+	- Table 6.1.2: Deflection Limits
+		- D+L: $\frac{16.067*2}{240}=0.803inch$
+		- L: $\frac{16.067*12}{360}=0.54inch$
+	- From Loads
+		- 
