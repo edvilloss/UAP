@@ -513,5 +513,5 @@ $$
 			- 4.3 Auto Seismic Loading
 				- Ex1 and Ey1
 				- ![[Pasted image 20240602151159.png]]
-				- 
-				- 
+			- (Section 2.5.7.4)
+				- $F=\frac{W_{x}(h_{x})^k}{\sum_{n=1}^{\infty}W_{i}(h_{i})^k}*V$
