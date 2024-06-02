@@ -308,3 +308,7 @@ $$
 |1F|ey1|Diaph D1 Y|0.001888|0.001196|1.578|
 |1F|ey2|Diaph D1 Y|0.001447|0.001234|1.173|
 |1F|ey3|Diaph D1 Y|0.002755|0.001194|2.307|
+- Re-entering Corners
+	- Building is irregular in terms of re-entrant corners if A/L>0.2
+|Story|Global X|Global Y
+||
