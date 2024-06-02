@@ -311,14 +311,25 @@ $$
 - Re-entering Corners
 	- Building is irregular in terms of re-entrant corners if A/L>0.2
 
-| Story | Global X |        |     |        | Global Y |        |      |       |
-| ----- | -------- | ------ | --- | ------ | -------- | ------ | ---- | ----- |
-|       | A        | L      | A/L | Status | A        | L      | A/L  | Satus |
-| GF    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    |       |
-| 1F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    |       |
-| 2F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    |       |
-| 3F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    |       |
-| 4F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    |       |
-| 5F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 |       |
-| 6F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 |      |       |
-| Roof  | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 |      |       |
+| Story | Global X |        |     |        | Global Y |        |      |        |
+| ----- | -------- | ------ | --- | ------ | -------- | ------ | ---- | ------ |
+|       | A        | L      | A/L | Status | A        | L      | A/L  | Satus  |
+| GF    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    | ok     |
+| 1F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    | ok     |
+| 2F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    | ok     |
+| 3F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    | ok     |
+| 4F    | 0        | 80.335 | 0   | ok     | 0        | 48.201 | 0    | ok     |
+| 5F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
+| 6F    | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
+| Roof  | 16.067   | 80.335 | 0.2 | ok     | 32.134   | 48.201 | 0.67 | Not ok |
+- Diaphragm Discontinuity
+	- Diaphragm discontinuity exists if opening area > 1/2 Total Floor Area
+	- There is no opening except stair and lift in the plan of the building.
+	- In terms of diaphragm discontinuity, the building is regular
+- Out of Plane Offsets
+	- There is no out of plane offset irregularity in the building
+- Non-parallel System
+	- All the shear walls are parallel and symmetric with centroidal orthogonal directions.
+## Vertical Irregularity
+- Stiffness Irregularity-Soft Story
+	- 
