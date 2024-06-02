@@ -235,15 +235,15 @@ $$
 6. Definition of dead and live loads
 	- Dead loads:
 		- SW (dead)\_dead\_self weight multiplier-1
-		- FF\_super dead\_self weight multiplier-0 (25psf); Landing ()
-		- FPW_ super dead_self weight multiplier-0
+		- FF\_super dead\_self weight multiplier-0 (25psf); Landing (56 psf)
+		- FPW_ super dead_self weight multiplier-0; (437.5 lb/ft) except roof all beam; parapet 200 lb/ft; M1
 	- Live Loads
-		- RPW_live
-		- LL42_live
-		- LL100\_live
-		- LL63\_live
-		- OHWT\_live
-		- Lift\_live
+		- RPW_live; all slab except roof + staircase + stare shape; M0.25
+		- LL42_live; 43 all slab, 63 roof; M0.25
+		- LL100\_live; 100 staircase ; M0.5
+		- LL63\_live; 63 roof M0.25
+		- OHWT\_livel; outer frame 500 lb/ft; M1
+		- Lift\_live; Calculated value; M1
 7. Definition and assignment of diaphragm (area diaphragm)
 8. Definition of Wind loads (as per BNBC: ASCE 7-05)
 9. Definition of Mass source (Seismic dead loads)
