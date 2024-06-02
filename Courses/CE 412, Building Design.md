@@ -453,6 +453,8 @@ $$
 			- OK
 4. Maximum lateral displacement for Earthquake Load
 	- Table 6.2.21:
+	- From Etabs we get $\delta_{ex}$
+		- $\\nabla$
 	- Allowable Story Drift Limit (Δ): $0.02H = 0.02*96*12 = 23.04 inch$
 	- Display 
 		- Story Response Plot 
