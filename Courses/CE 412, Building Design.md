@@ -604,4 +604,7 @@ $$
 	- Here V is not $\le \frac{V_{c}}{2}$ then the minimum horizontal reinforcements are not sufficient
 	- Horizontal shear reinforcement
 		- Spacing (using 2-legged \#3 )
-			- $S_{2}=\frac{A_{vh}F_{y}d}{V_{n}-V_{c}}=0.11*2*62.67*$
+			- $S_{2}=\frac{A_{vh}F_{y}d}{V_{n}-V_{c}}=\frac{0.11*2*62.67*77.12}{66.2-89.94}$
+			- $S_{2}=\frac{L_{w}}{5}=\frac{8.0335}{5}*12=19.28"\approx{18}$
+			- $3*h=3*10=30"$
+			- $S=18}$
