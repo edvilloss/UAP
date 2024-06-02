@@ -446,6 +446,15 @@ $$
 3. Story drift for Wind Load (Section 1.5.6.1)
 	- Drift ≤ 0.004
 	- Display 
-	- Story Response Plot 
-	- Display Type: Maximum Story drift 
-	- D+0.5L+0.7Wx1 ~ D+0.5L+0.7Wy4 (Maximum)
+		- Story Response Plot 
+			- Display Type: Maximum Story drift 
+			- wx1 ~ wy4 (Maximum)
+			- ![[Pasted image 20240602133849.png]] (Wy4)
+			- OK
+4. Maximum lateral displacement for Earthquake Load
+	- Table 6.2.21:
+	- Allowable Story Drift Limit (Δ): $0.02H = 0.02*96*12 = 23.04 inch$
+	- Display 
+		- Story Response Plot 
+			- Display Type: Maximum Story drift 
+			- wx1 ~ wy4 (Maximum)
