@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/CE 412, Building Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/CE 412, Building Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Courses/CE 412, Building Design.md"
+              }
             }
           },
           {
@@ -142,11 +146,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,8 +165,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83ec59e0c4b3faf7",
+  "active": "afa78faf00dbf230",
   "lastOpenFiles": [
+    "Courses/CE 423, Earthquake.md",
     "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Pasted image 20240602055410.png",
     "Assets/Attachments/Pasted image 20240602055403.png",
@@ -176,7 +182,6 @@
     "Assets/Attachments/Pasted image 20240601220543.png",
     "Projects",
     "Courses/CE 531, GIS.md",
-    "Courses/CE 423, Earthquake.md",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
     "Templates/Table of Contents.md",
