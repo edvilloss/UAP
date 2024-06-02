@@ -537,7 +537,9 @@ $$
 								- Bottom
 		- Δ = Design story drift occurring simultaneously with 𝑉𝑥
 			- Story Response plot
-				- 
+				- max disp
+				- ex1 ex2 ex3
+				- ey1 ey2 ey3
 		- 𝑉𝑥 = Storey shear force acting between levels 𝑥 and 𝑥 − 1
 			- Table
 				- Analysis
@@ -555,5 +557,13 @@ $$
 		- If Stability Coefficient, θ ≤ 0.1, P- effect need not to be considered
 		- If Stability Coefficient, 0.1 ≤ θ ≤ 𝜃𝑚𝑎𝑥, P- effect need to be considered
 		- If Stability Coefficient, θ $\le 𝜃𝑚𝑎𝑥$, structure need to be redesigned
-1. Building Separation (E)
-2. Uplift Effect (W and E)
+	- If needs to be considered
+		- Define
+			- P-delta option
+				- Non-iterative based on Mass
+4. Building Separation (E) BNBC 2015 (Section 2.5.14.3)
+	- Buildings shall be protected from earthquake induced pounding from adjacent structures or between structurally independent units of the same building maintaining safe distance between such structures as follows
+		- for buildings, or structurally independent units, that do not belong to the same property the distance from the property line to the potential points of impact shall not be less than the computed maximum horizontal displacement of the building at the corresponding level
+		- for buildings, or structurally independent units, belonging to the same property if the distance between them is not less than the square root of the sum of the squares ( of the computed maximum horizontal displacements of the two buildings or units at the corresponding level
+		- if the floor elevations of the building or independent unit under design are the same as those of the adjacent building or unit, the above referred minimum distance may be reduced by a factor of 0 7
+1. Uplift Effect (W and E)
