@@ -591,4 +591,9 @@ $$
 | 6F    | 66       | F6= 0.1643V  | 36.26     | 32.63     |
 | 7F    | 76       | F7= 0.1940V  | 42.82     | 38.53     |
 | Roof  | 86       | F8= 0.2250V  | 49.65     | 44.69     |
-=
+- Design Steps (Y dir)
+	- Assumed thickness of the wall, h = 10 inch (The thickness of the shear wall must be at least 8 inch)
+	- Section Taken at $\frac{L_{w}}{2} or\frac{H_{w}}{2}$ (which ever is less)from the base is considered as critical secton
+		- $\frac{L_{w}}{2}=\frac{S_{w}}{4}=3.75'$
+		- $\frac{H_{w}}{2}=\frac{86}{2}=43'$
+		- 
