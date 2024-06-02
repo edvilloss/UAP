@@ -603,5 +603,5 @@ $$
 	- Since there is no net tensile force on the section, $V_{c}$ can be taken as $=2\sqrt{ f_{c}' }hd=2\sqrt{ \frac{3.4}{1000} }*10*77.12=89.94kops$
 	- Here V is not $\le \frac{V_{c}}{2}$ then the minimum horizontal reinforcements are not sufficient
 	- Horizontal shear reinforcement
-		- Spacing,
-			- S
+		- Spacing (using 2-legged \#3 )
+			- $S_{2}=\frac{A_{vh}F_{y}d}{V_{n}-V_{c}}=0.11*2*62.67*$
