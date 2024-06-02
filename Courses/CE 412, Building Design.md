@@ -444,28 +444,28 @@ $$
 				- Structural Results
 					- Story Forces
 					
-| Story | Load Case/Combo | Location |     | VX lb      | VY lb      | Vpresent/Vtop |
-| ----- | --------------- | -------- | --- | ---------- | ---------- | ------------- |
-| GF    | ex1             | Bottom   |     | -511214.62 | 0          | 1             |
-| 1F    | ex1             | Bottom   |     | -508494.59 | 0          | 1.03          |
-| 2F    | ex1             | Bottom   |     | -491502.65 | 0          | 1.06          |
-| 3F    | ex1             | Bottom   |     | -461334.35 | 0          | 1.1           |
-| 4F    | ex1             | Bottom   |     | -416898.58 | 0          | 1.17          |
-| 5F    | ex1             | Bottom   |     | -357541.32 | 0          |               |
-| 6F    | ex1             | Bottom   |     | -290771.46 | 0          |               |
-| 7F    | ex1             | Bottom   |     | -209583.07 | 0          |               |
-| Roof  | ex1             | Bottom   |     | -113553.52 | 0          |               |
-| Tank  | ex1             | Bottom   |     | -28639.13  | 0          |               |
-| GF    | ey1             | Bottom   |     | 0.0001059  | -511214.61 |               |
-| 1F    | ey1             | Bottom   |     | 0.0001059  | -508494.58 |               |
-| 2F    | ey1             | Bottom   |     | 9.822E-05  | -491502.65 |               |
-| 3F    | ey1             | Bottom   |     | 9.568E-05  | -461334.34 |               |
-| 4F    | ey1             | Bottom   |     | 9.251E-05  | -416898.58 |               |
-| 5F    | ey1             | Bottom   |     | 6.121E-05  | -357541.32 |               |
-| 6F    | ey1             | Bottom   |     | 5.407E-05  | -290771.46 |               |
-| 7F    | ey1             | Bottom   |     | 0          | -209583.06 |               |
-| Roof  | ey1             | Bottom   |     | 0          | -113553.52 |               |
-| Tank  | ey1             | Bottom   |     | 0          | -28639.13  |               |
+| Story | Load Case/Combo | Location |     | VX lb      | VY lb      | Vpresent/Vtop | Status(>0.8) |
+| ----- | --------------- | -------- | --- | ---------- | ---------- | ------------- | ------------ |
+| GF    | ex1             | Bottom   |     | -511214.62 | 0          | 1             | 0k           |
+| 1F    | ex1             | Bottom   |     | -508494.59 | 0          | 1.03          | 0k           |
+| 2F    | ex1             | Bottom   |     | -491502.65 | 0          | 1.06          | 0k           |
+| 3F    | ex1             | Bottom   |     | -461334.35 | 0          | 1.1           | 0k           |
+| 4F    | ex1             | Bottom   |     | -416898.58 | 0          | 1.17          | 0k           |
+| 5F    | ex1             | Bottom   |     | -357541.32 | 0          | 1.23          | 0k           |
+| 6F    | ex1             | Bottom   |     | -290771.46 | 0          | 1.39          | 0k           |
+| 7F    | ex1             | Bottom   |     | -209583.07 | 0          | 1.85          | 0k           |
+| Roof  | ex1             | Bottom   |     | -113553.52 | 0          | 3.96          | 0k           |
+| Tank  | ex1             | Bottom   |     | -28639.13  | 0          | -             | 0k           |
+| GF    | ey1             | Bottom   |     | 0.0001059  | -511214.61 | 1             | 0k           |
+| 1F    | ey1             | Bottom   |     | 0.0001059  | -508494.58 | 1.03          | 0k           |
+| 2F    | ey1             | Bottom   |     | 9.822E-05  | -491502.65 | 1.06          | 0k           |
+| 3F    | ey1             | Bottom   |     | 9.568E-05  | -461334.34 | 1.1           | 0k           |
+| 4F    | ey1             | Bottom   |     | 9.251E-05  | -416898.58 | 1.17          | 0k           |
+| 5F    | ey1             | Bottom   |     | 6.121E-05  | -357541.32 | 1.23          | 0k           |
+| 6F    | ey1             | Bottom   |     | 5.407E-05  | -290771.46 | 1.39          | 0k           |
+| 7F    | ey1             | Bottom   |     | 0          | -209583.06 | 1.85          | 0k           |
+| Roof  | ey1             | Bottom   |     | 0          | -113553.52 | 3.96          | 0k           |
+| Tank  | ey1             | Bottom   |     | 0          | -28639.13  | -             | 0k           |
 # Serviceability Criteria
 1. Vertical Deflection Limits (D+L and L)
 	- Table 6.1.2: Deflection Limits
