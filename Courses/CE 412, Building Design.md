@@ -72,7 +72,10 @@ $$
 - Determination of Seismic Design Category (SDC)
 	- According to BNBC 2020, T6.2.18, ==SDC = C==
 - Determination of Response Reduction Factor, R
-	- According to BNBC 2020, T6.2.19, R = ==5 (Concrete IMRF)==
+	- According to BNBC 2020, T6.2.19, 
+	- R = ==5 (Concrete IMRF)==
+	- $C_{d}=4.5$
+	- $\Omega_{0}=$
 - Soil Factor (S) and other related parameters (TB, TC, TD)
 	- According to BNBC 2020, T6.2.16
 		- ==$S = 1.15$==
@@ -454,7 +457,8 @@ $$
 4. Maximum lateral displacement for Earthquake Load
 	- Table 6.2.21:
 	- From Etabs we get $\delta_{ex}$
-		- $\\nabla$
+		- $\delta_{x}=\frac{C_{d}*\delta_{ex}}{I}$
+		- $here, C_{d}=4.5$
 	- Allowable Story Drift Limit (Δ): $0.02H = 0.02*96*12 = 23.04 inch$
 	- Display 
 		- Story Response Plot 
