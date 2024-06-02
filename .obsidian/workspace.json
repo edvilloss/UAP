@@ -18,20 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c9b53c9aedc70873",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Courses/CE 412, Building Design.md",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,7 +160,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c9b53c9aedc70873",
+  "active": "83ec59e0c4b3faf7",
   "lastOpenFiles": [
     "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Pasted image 20240602055410.png",
