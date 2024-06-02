@@ -482,4 +482,6 @@ $$
 			- $0.0048*4.5=0.021$
 			- Not Ok
 			- Increase Column dim in y axis
-	- 
+# Additional Requirements
+1. Overturning Moment (W and E)
+2. 
