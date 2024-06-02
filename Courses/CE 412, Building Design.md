@@ -251,4 +251,60 @@ $$
 # Building Irregularities
 ## Plan Irregularity
 - Torsional Irregularity
-- 
+	- For every EQ loads(if more than 1.2 and Less than 1.4; $\frac{\Delta max}{\Delta avg}$)
+	- Show Table
+		- Analysis
+			- Results
+				- Displacements
+					- Max/AVG
+					- Need Ratio
+|Story|Load Case/Combo|Item|Max Drift|Avg Drift|Ratio|
+|---|---|---|---|---|---|
+|Roof|ex1|Diaph D1 X|0.002035|0.001724|1.18|
+|Roof|ex2|Diaph D1 X|0.00188|0.001715|1.096|
+|Roof|ex3|Diaph D1 X|0.00219|0.001733|1.264|
+|Roof|ey1|Diaph D1 Y|0.00279|0.002787|1.001|
+|Roof|ey2|Diaph D1 Y|0.003221|0.00281|1.146|
+|Roof|ey3|Diaph D1 Y|0.003166|0.002763|1.146|
+|7F|ex1|Diaph D1 X|0.002158|0.001777|1.214|
+|7F|ex2|Diaph D1 X|0.001921|0.001758|1.093|
+|7F|ex3|Diaph D1 X|0.002394|0.001796|1.333|
+|7F|ey1|Diaph D1 Y|0.003133|0.002932|1.068|
+|7F|ey2|Diaph D1 Y|0.00336|0.002957|1.136|
+|7F|ey3|Diaph D1 Y|0.003712|0.002908|1.276|
+|6F|ex1|Diaph D1 X|0.00227|0.001801|1.261|
+|6F|ex2|Diaph D1 X|0.001952|0.00177|1.103|
+|6F|ex3|Diaph D1 X|0.002588|0.001832|1.413|
+|6F|ey1|Diaph D1 Y|0.003487|0.003054|1.142|
+|6F|ey2|Diaph D1 Y|0.003443|0.003078|1.119|
+|6F|ey3|Diaph D1 Y|0.004262|0.003031|1.406|
+|5F|ex1|Diaph D1 X|0.002312|0.001774|1.304|
+|5F|ex2|Diaph D1 X|0.001934|0.001734|1.116|
+|5F|ex3|Diaph D1 X|0.00269|0.001814|1.483|
+|5F|ey1|Diaph D1 Y|0.003775|0.003099|1.218|
+|5F|ey2|Diaph D1 Y|0.003382|0.003119|1.084|
+|5F|ey3|Diaph D1 Y|0.004695|0.00308|1.524|
+|4F|ex1|Diaph D1 X|0.002253|0.001678|1.343|
+|4F|ex2|Diaph D1 X|0.001846|0.001632|1.131|
+|4F|ex3|Diaph D1 X|0.00266|0.001724|1.543|
+|4F|ey1|Diaph D1 Y|0.003899|0.003009|1.296|
+|4F|ey2|Diaph D1 Y|0.003134|0.003021|1.037|
+|4F|ey3|Diaph D1 Y|0.004889|0.002996|1.632|
+|3F|ex1|Diaph D1 X|0.00216|0.00151|1.43|
+|3F|ex2|Diaph D1 X|0.001721|0.001458|1.18|
+|3F|ex3|Diaph D1 X|0.0026|0.001562|1.664|
+|3F|ey1|Diaph D1 Y|0.003661|0.002742|1.335|
+|3F|ey2|Diaph D1 Y|0.002906|0.00275|1.057|
+|3F|ey3|Diaph D1 Y|0.004728|0.002733|1.73|
+|2F|ex1|Diaph D1 X|0.001927|0.001243|1.55|
+|2F|ex2|Diaph D1 X|0.001487|0.001187|1.252|
+|2F|ex3|Diaph D1 X|0.002367|0.001299|1.822|
+|2F|ey1|Diaph D1 Y|0.003104|0.002226|1.394|
+|2F|ey2|Diaph D1 Y|0.002422|0.002232|1.085|
+|2F|ey3|Diaph D1 Y|0.004166|0.002221|1.875|
+|1F|ex1|Diaph D1 X|0.001273|0.000718|1.773|
+|1F|ex2|Diaph D1 X|0.000928|0.000682|1.361|
+|1F|ex3|Diaph D1 X|0.001618|0.000755|2.145|
+|1F|ey1|Diaph D1 Y|0.001888|0.001196|1.578|
+|1F|ey2|Diaph D1 Y|0.001447|0.001234|1.173|
+|1F|ey3|Diaph D1 Y|0.002755|0.001194|2.307|
