@@ -566,4 +566,9 @@ $$
 		- for buildings, or structurally independent units, that do not belong to the same property the distance from the property line to the potential points of impact shall not be less than the computed maximum horizontal displacement of the building at the corresponding level
 		- for buildings, or structurally independent units, belonging to the same property if the distance between them is not less than the square root of the sum of the squares ( of the computed maximum horizontal displacements of the two buildings or units at the corresponding level
 		- if the floor elevations of the building or independent unit under design are the same as those of the adjacent building or unit, the above referred minimum distance may be reduced by a factor of 0 7
-1. Uplift Effect (W and E)
+5. Uplift Effect (W and E)
+	- Uplift effects caused due to lateral loads shall be considered in design When allowable ( stress method is used for design, dead loads used to reduce uplift shall be multiplied by a factor of 0 85
+	- $\downarrow 0.85DL\ge EQ -or-W \uparrow$
+	- Check Column or SW base vertical reaction force for 0 85 \*DL
+	- Soil load above footing area may be added with 0 85 times DL to check uplift effect
+# Design of Shear Wall
