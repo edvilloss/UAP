@@ -334,9 +334,10 @@ $$
 1. Stiffness Irregularity-Soft Story
 	- Ex1 and Ey1
 	- Show Table
-		- Results
-			- Structural Results
-				- Story Stiffness
+		- Analysis
+			- Results
+				- Structural Results
+					- Story Stiffness
 |Story|Load Case|||Stiffness Xlb/ft|||Stiffness Y lb/ft|
 |---|---|---|---|---|---|---|---|
 |Tank|ex1|||1470955.11|||0|
@@ -370,5 +371,32 @@ $$
 	- There is no Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force in the building
 5. Discontinuity in Capacity-Weak Story
 	- Story Force
+	- Ex1 Ey1
+	- Bottom
 	- Show Table
-		- 
+		- Analysis
+			- Results
+				- Structural Results
+					- Story Forces
+|Story|Load Case/Combo|Location||VX lb|VY lb|
+|---|---|---|---|---|---|
+|Tank|ex1|Bottom||-28639.13|0|
+|Tank|ey1|Bottom||0|-28639.13|
+|Roof|ex1|Bottom||-113553.52|0|
+|Roof|ey1|Bottom||0|-113553.52|
+|7F|ex1|Bottom||-209583.07|0|
+|7F|ey1|Bottom||0|-209583.06|
+|6F|ex1|Bottom||-290771.46|0|
+|6F|ey1|Bottom||5.407E-05|-290771.46|
+|5F|ex1|Bottom||-357541.32|0|
+|5F|ey1|Bottom||6.121E-05|-357541.32|
+|4F|ex1|Bottom||-416898.58|0|
+|4F|ey1|Bottom||9.251E-05|-416898.58|
+|3F|ex1|Bottom||-461334.35|0|
+|3F|ey1|Bottom||9.568E-05|-461334.34|
+|2F|ex1|Bottom||-491502.65|0|
+|2F|ey1|Bottom||9.822E-05|-491502.65|
+|1F|ex1|Bottom||-508494.59|0|
+|1F|ey1|Bottom||0.0001059|-508494.58|
+|GF|ex1|Bottom||-511214.62|0|
+|GF|ey1|Bottom||0.0001059|-511214.61|
