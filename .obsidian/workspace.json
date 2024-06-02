@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Courses/CE 531, GIS.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bd8844562534f5c6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Courses/CE 531, GIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Courses/CE 531, GIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CE 412, Building Design.md"
+                "file": "Courses/CE 531, GIS.md"
               }
             }
           },
@@ -168,8 +167,11 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
-    "Courses/Untitled.md",
+    "Templates/Table of Contents.md",
     "Courses/CE 412, Building Design.md",
+    "Courses/CE 423, Earthquake.md",
+    "Courses/Untitled.md",
+    "Assets/Attachments/Pasted image 20240602184649.png",
     "Assets/Attachments/Pasted image 20240602151159.png",
     "Assets/Attachments/Pasted image 20240602142138.png",
     "Assets/Attachments/Pasted image 20240602142111.png",
@@ -179,14 +181,11 @@
     "Assets/Attachments/Pasted image 20240602140001.png",
     "Assets/Attachments/Pasted image 20240602133849.png",
     "Assets/Attachments/Pasted image 20240602133440.png",
-    "Assets/Attachments/Pasted image 20240602131937.png",
-    "Courses/CE 423, Earthquake.md",
     "Projects/CE 417, Steel Column.md",
     "Projects",
     "Courses/CE 531, GIS.md",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
-    "Templates/Table of Contents.md",
     "Canvases/Model Builder GIS.canvas",
     "Canvases/Flood map generation (HECRAS).canvas",
     "Canvases",

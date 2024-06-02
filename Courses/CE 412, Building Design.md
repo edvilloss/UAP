@@ -1,3 +1,4 @@
+
 # Materials and Building Geometry, Gravity Load calculations (DL and LL)
 
 ## Material Properties
@@ -609,4 +610,4 @@ $$
 			- $S_{2}=3*h=3*10=30"$
 			- $S_{2}=18''$
 			- $S_{2}=\frac{A_{vh}}{0.0025h}=\frac{0.11*2}{0.0024*10}=8.8''\approx 8.5''$
-			- 
+			- ![[Pasted image 20240602184649.png]]
