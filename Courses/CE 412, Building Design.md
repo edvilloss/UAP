@@ -576,3 +576,7 @@ $$
 - $Here, W = [8*(5S*3S) – 3*(2S*S)]*300/1000 kips$
 	- $W=\frac{(8*(5*16.067*3*16.057)-3*(16.067*2*16.067))*300}{1000}=8828.68kips$
 - Therefore, $V=0.05*8828.68=441.4k$
+- Shear wall will take 50% and 45% of total base shear in x and y directions, respectively for earthquake loads.
+- Base shear in walls along x-direction $= Vx = 0.5*441.4 = 220.7 kips$
+- Base shear in walls along y-direction $= Vy = 0.45*441.4 = 198.63 kips$
+- 
