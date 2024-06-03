@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,6 +167,7 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
+    "Assets/Attachments/417y.png",
     "Assets/Attachments/417x.png",
     "Assets/Attachments/417.png",
     "Assets/Attachments/417 3.tif",
@@ -186,7 +188,6 @@
     "Assets/Attachments/Pasted image 20240602142111.png",
     "Assets/Attachments/Pasted image 20240602141843.png",
     "Assets/Attachments/Pasted image 20240602141809.png",
-    "Assets/Attachments/Pasted image 20240602140403.png",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",

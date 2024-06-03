@@ -7,6 +7,8 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ![[Pasted image 20240601220543.png]]
 ![[417.png]]
 	![[417x.png]]
+	![[417y.png]]
+	
 ## Answer 1
 ### Load on column C
 - Dead Loads
@@ -31,7 +33,7 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- 1.2DL+1.6LL
 	- $\phi P= 1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
 ### K factor
-- 1st assumption 1 
+- Assuming Steel Section of  
 - $kL=16*12=192"$
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
