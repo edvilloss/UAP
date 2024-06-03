@@ -446,18 +446,18 @@ $$
 				- Structural Results
 					- Story Forces
 					
-| Story | Load Case/Combo | Location | VX lb      | VY lb      | Vpresent/Vtop | Status(>0.8) |
+| Story | Load Case/Combo | Location | VX kip     | VY kip     | Vpresent/Vtop | Status(>0.8) |
 | ----- | --------------- | -------- | ---------- | ---------- | ------------- | ------------ |
-| GF    | ex1             | Bottom   | -511214.62 | 0          | 1             | 0k           |
-| 1F    | ex1             | Bottom   | -508494.59 | 0          | 1.03          | 0k           |
-| 2F    | ex1             | Bottom   | -491502.65 | 0          | 1.06          | 0k           |
-| 3F    | ex1             | Bottom   | -461334.35 | 0          | 1.1           | 0k           |
-| 4F    | ex1             | Bottom   | -416898.58 | 0          | 1.17          | 0k           |
-| 5F    | ex1             | Bottom   | -357541.32 | 0          | 1.23          | 0k           |
-| 6F    | ex1             | Bottom   | -290771.46 | 0          | 1.39          | 0k           |
-| 7F    | ex1             | Bottom   | -209583.07 | 0          | 1.85          | 0k           |
-| Roof  | ex1             | Bottom   | -113553.52 | 0          | 3.96          | 0k           |
-| Tank  | ex1             | Bottom   | -28639.13  | 0          | -             | 0k           |
+| GF    | ex1             | Bottom   | -511.21462 | 0          | 1             | 0k           |
+| 1F    | ex1             | Bottom   | -508.49459 | 0          | 1.03          | 0k           |
+| 2F    | ex1             | Bottom   | -491.50265 | 0          | 1.06          | 0k           |
+| 3F    | ex1             | Bottom   | -461.33435 | 0          | 1.1           | 0k           |
+| 4F    | ex1             | Bottom   | -416.89858 | 0          | 1.17          | 0k           |
+| 5F    | ex1             | Bottom   | -357.54132 | 0          | 1.23          | 0k           |
+| 6F    | ex1             | Bottom   | -290.77146 | 0          | 1.39          | 0k           |
+| 7F    | ex1             | Bottom   | -209.58307 | 0          | 1.85          | 0k           |
+| Roof  | ex1             | Bottom   | -113.55352 | 0          | 3.96          | 0k           |
+| Tank  | ex1             | Bottom   | -28.63913  | 0          | -             | 0k           |
 | GF    | ey1             | Bottom   | 0.0001059  | -511214.61 | 1             | 0k           |
 | 1F    | ey1             | Bottom   | 0.0001059  | -508494.58 | 1.03          | 0k           |
 | 2F    | ey1             | Bottom   | 9.822E-05  | -491502.65 | 1.06          | 0k           |
