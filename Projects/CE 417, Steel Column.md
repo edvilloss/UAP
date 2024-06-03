@@ -33,7 +33,12 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- 1.2DL+1.6LL
 	- $\phi P= 1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
 ### K factor
-- Assuming Steel Section of  
+- Assuming Steel Section of  W14x82
+	- Ix=881 $in^4$
+	- Iy=148 $in^4$
+- Beam, I= 348 $in^4$
+- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
+	- 
 - $kL=16*12=192"$
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
