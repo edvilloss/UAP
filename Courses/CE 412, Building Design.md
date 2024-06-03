@@ -136,8 +136,8 @@ $$
 - Calculation of TL
 	- Long Period Transition Period, TL = TD = 2.0
 - Calculation of Spectral Response Acceleration Parameter SDS and SD1
-	- $S_{D1}=\left( \frac{2}{3} \right)*F_{y}*S_{1}=$
-	- $S_{D1}=\left( \frac{2}{3} \right)*F_{a}*S_{s}=$
+	- $SD_{S}=\left( \frac{2}{3} \right)*F_{y}*S_{1}=$
+	- $SD_{1}=\left( \frac{2}{3} \right)*F_{a}*S_{s}=$
 # Wind Load Calculation as per BNBC 2020
 - Basic Wind Speed:
 	- Location of the Project: Sirajganj
@@ -530,7 +530,7 @@ $$
 			- 4.2 Auto Wind Loading
 				- Wx1
 				- ![[Pasted image 20240602142111.png]]
-					- $M_{0}=16*9.28+26*9.71+36*10.41+46*10.97+56*11.44+66*11.84+76*12.201+86*19.355=5294.206 k-ft$
+					-  $\begin{aligned} M_{0}=16*9.28+26*9.71+36*\\ 10.41+46*10.97+56*11.44+66*11.84+76*\\ 12.201+86*19.355=5294.206 k-ft \end{aligned}$
 					- $M_{R}=\frac{W_{D+L}*(16.067*5)}{2}$
 					- $W_{D+L}$
 						- Show Table
