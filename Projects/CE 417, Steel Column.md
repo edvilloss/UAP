@@ -43,7 +43,10 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- $G_{B}=Fixed=\infty$
 - From Grid D
 	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
-- $kL=16*12=192"$
+	-  $G_{B}=Fixed=\infty$
+![[Pasted image 20240604004004.png]]
+- $kL=16*1.14*12=218.88''$ (Grid 1)
+- $kL=16$
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
 ### 1st trial
