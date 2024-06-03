@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CE 412, Building Design.md"
+                "file": "Projects/CE 417, Steel Column.md"
               }
             }
           },
@@ -168,10 +168,10 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
+    "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Pasted image 20240603011617.png",
     "Assets/Attachments/Pasted image 20240603011553.png",
     "Projects/CE 417, Steel Column.md",
-    "Courses/CE 412, Building Design.md",
     "Courses/CE 531, GIS.md",
     "Templates/Table of Contents.md",
     "Courses/CE 423, Earthquake.md",
@@ -184,7 +184,6 @@
     "Assets/Attachments/Pasted image 20240602141809.png",
     "Assets/Attachments/Pasted image 20240602140403.png",
     "Assets/Attachments/Pasted image 20240602140001.png",
-    "Assets/Attachments/Pasted image 20240602133849.png",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
