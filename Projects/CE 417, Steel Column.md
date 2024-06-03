@@ -39,7 +39,10 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 - Beam, I= 348 $in^4$
 - $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
 - From Grid 1
-	- $G_{A}=\frac{\left(  \frac{148}{10*12}+\frac{148}{16*12} \right)}{\frac{348}{33*12}+\frac{348}{33}}$
+	- $G_{A}=\frac{ \frac{148}{10*12}+\frac{148}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.14$
+	- $G_{B}=Fixed=\infty \approx 10$
+- From Grid D
+	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=1.14$
 - $kL=16*12=192"$
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
