@@ -458,16 +458,16 @@ $$
 | 7F    | ex1             | Bottom   | -209.58307 | 0          | 1.85          | 0k           |
 | Roof  | ex1             | Bottom   | -113.55352 | 0          | 3.96          | 0k           |
 | Tank  | ex1             | Bottom   | -28.63913  | 0          | -             | 0k           |
-| GF    | ey1             | Bottom   | 0.0001059  | -511214.61 | 1             | 0k           |
-| 1F    | ey1             | Bottom   | 0.0001059  | -508494.58 | 1.03          | 0k           |
-| 2F    | ey1             | Bottom   | 9.822E-05  | -491502.65 | 1.06          | 0k           |
-| 3F    | ey1             | Bottom   | 9.568E-05  | -461334.34 | 1.1           | 0k           |
-| 4F    | ey1             | Bottom   | 9.251E-05  | -416898.58 | 1.17          | 0k           |
-| 5F    | ey1             | Bottom   | 6.121E-05  | -357541.32 | 1.23          | 0k           |
-| 6F    | ey1             | Bottom   | 5.407E-05  | -290771.46 | 1.39          | 0k           |
-| 7F    | ey1             | Bottom   | 0          | -209583.06 | 1.85          | 0k           |
-| Roof  | ey1             | Bottom   | 0          | -113553.52 | 3.96          | 0k           |
-| Tank  | ey1             | Bottom   | 0          | -28639.13  | -             | 0k           |
+| GF    | ey1             | Bottom   | 0.         | -511.21461 | 1             | 0k           |
+| 1F    | ey1             | Bottom   | 0.         | -508.49458 | 1.03          | 0k           |
+| 2F    | ey1             | Bottom   | 0.         | -491.50265 | 1.06          | 0k           |
+| 3F    | ey1             | Bottom   | 0.         | -461.33434 | 1.1           | 0k           |
+| 4F    | ey1             | Bottom   | 0.         | -416.89858 | 1.17          | 0k           |
+| 5F    | ey1             | Bottom   | 0.         | -357.54132 | 1.23          | 0k           |
+| 6F    | ey1             | Bottom   | 0          | -290.77146 | 1.39          | 0k           |
+| 7F    | ey1             | Bottom   | 0          | -209.58306 | 1.85          | 0k           |
+| Roof  | ey1             | Bottom   | 0          | -113.55352 | 3.96          | 0k           |
+| Tank  | ey1             | Bottom   | 0          | -28.63913  | -             | 0k           |
 # Serviceability Criteria
 1. Vertical Deflection Limits (D+L and L)
 	- Table 6.1.2: Deflection Limits
