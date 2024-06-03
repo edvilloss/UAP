@@ -38,20 +38,21 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 	- Iy=148 $in^4$
 - Beam, I= 348 $in^4$
 - $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
-- From Grid 1
+- From Weak axis (y)
 	- $G_{A}=\frac{ \frac{148}{10*12}+\frac{148}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.14$
 	- $G_{B}=Fixed=\infty$
-- From Grid D
+- From Strong axis (x)
 	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
 	-  $G_{B}=Fixed=\infty$
 ![[Pasted image 20240604004004.png]]
-- $kL=16*2.5*12=480''$ (Grid 1)
-- $kL=16*5.2*12=998.4$
+- $kL=16*2.5*12=480''$ (Weak y)
+- $kL=16*5.2*12=998.4$ (Strong x)
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
 ### 1st trial
 - Assuming $\frac{KL}{r}=100$
-- $r=4.8$
+- $r=4.8$ (weak y)
+- $r=9.984$ (strong x)
 - $F_{e}=\frac{\pi^2*29000}{\left( \frac{kL}{r} \right)^2}=\frac{\pi^2*29000}{(100)^2}=28.62 ksi$
 - $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28.62} \right) \right)*60=24.5ksi$
 - $506.54k=\phi*F_{cr}*A_{g}$
