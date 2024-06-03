@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bd8844562534f5c6",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CE 412, Building Design.md",
+                "file": "Projects/CE 417, Steel Column.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CE 412, Building Design.md"
+                "file": "Projects/CE 417, Steel Column.md"
               }
             }
           },
@@ -167,8 +166,8 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
-    "Projects/CE 417, Steel Column.md",
     "Courses/CE 412, Building Design.md",
+    "Projects/CE 417, Steel Column.md",
     "Assets/Attachments/Pasted image 20240603011617.png",
     "Assets/Attachments/Pasted image 20240603011553.png",
     "Courses/CE 531, GIS.md",
