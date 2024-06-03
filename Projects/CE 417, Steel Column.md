@@ -6,7 +6,7 @@ A ==four-story== steel-framed office building comprised of three bays @ ==33 ft=
 ![[Pasted image 20240601212704.png]]
 ![[Pasted image 20240601220543.png]]
 ![[417.png]]
-	
+	![[417x.png]]
 ## Answer 1
 ### Load on column C
 - Dead Loads
