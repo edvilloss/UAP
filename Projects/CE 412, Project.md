@@ -93,6 +93,7 @@ Gravity loads, such as dead and live loads applied at the floors or roofs of the
 - Floor Live Load (LL42) = 42 psf
 - Staircase Live Load (LL100) = 100 psf
 - Roof Live Load (LL63) = 63 psf
+- Parking Live Load (LL75) = 75 psf
 - Random Partition Wall (RPW) = 25 psf
 - OHWT 5' = 312 psf; Edge = 500 plf
 - Lift load = $\frac{4*8*75}{5.5*6.167}*2.206 \approx 170 psf$
@@ -133,8 +134,8 @@ Column base supports have been considered as fixed supports in 3D model of super
 ## Design Method and Load Combinations
 ### Unfactored load combinations
 - D: (SW + FF + FPW)
-- L: (LL42 + LL63 + RPW + LL100 + OHWT + Lift)
-- Seismic Weight: (SW + FF + FPW) + 0.25(LL42 + LL63 + RPW) + 0.5(LL100 + OHWT + Lift)
+- L: (LL42 + LL63 + RPW + LL100 + LL75 + OHWT + Lift)
+- Seismic Weight: (SW + FF + FPW) + 0.25(LL42 + LL63 + RPW + LL 75) + 0.5(LL100 + OHWT + Lift)
 - D + 0.5L + 0.7W
 ### Factored Load Combinations
 - As per BNBC 2020 (75 combos or 99 combos)
