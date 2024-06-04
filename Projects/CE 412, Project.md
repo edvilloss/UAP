@@ -160,9 +160,9 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	2. Live Loads
 		1. RPW_live; all slab except roof + staircase + stare shape; M0.25
 		2. LL42_live; 43 all slab, 63 roof; M0.25
-		- LL100\_live; 100 staircase ; M0.5
-		- LL63\_live; 63 roof M0.25
-		- OHWT\_livel; outer frame 500 lb/ft; 312psf; M1
+		3. LL100\_live; 100 staircase ; M0.5
+		4. LL63\_live; 63 roof M0.25
+		5. OHWT\_livel; outer frame 500 lb/ft; 312psf; M1
 		- Lift\_live; Calculated value; M1
 8. Definition and assignment of diaphragm (area diaphragm)
 9. Definition of Wind loads (as per BNBC: ASCE 7-05)
