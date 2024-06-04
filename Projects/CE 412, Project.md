@@ -79,5 +79,4 @@ Material type: Rebar
 - Minimum Yield Strength, fy: $9024.48 kip/ft^2$
 - Minimum Tensile Strength, fu: $11280.6 kip/ft^2$
 - Expected Yield Strength, fye: $9926.93 kip/ft^2$
-
 - Expected Tensile Strength, fue: 1$2408.66 kip/ft^2$
