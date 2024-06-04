@@ -59,11 +59,25 @@ ASCE 7-05 ASCE/SEI 7-05: 05: Minimum Design Loads for Buildings and Other Struct
 - Structural Design of RCC has been considered according to BNBC2020.
 ## Structural Geometry Considerations
 Structural geometry (Shape, size, story height and number of stories) have been considered as per architectural design and further requirement also checked.
+- Grid
+	- X axis 
+	- Y axis
+	- Story
 ## Material Specifications
 ### Concrete
 The following concrete grades f'c (28 days cylinder strength) are adopted in design
 - Directional Type: Isotropic
 - Weight per unit volume 0.15 kip/ft^3
-- Modulus of Elasticity (brick chip) = 45000\sqrt(f'_c) = 2623928.353 psi = 377845.6828 kip/ft^2
+- Modulus of Elasticity (brick chip) = 4$5000\sqrt(f'_c) = 2623928.353 psi = 377845.6828 kip/ft^2$
 - Poison's ration 0.2
--      Concrete compressive strength, fc' = 3400 psi = 489.6 kip/ft^2
+- Concrete compressive strength, fc' = 3400 psi = 489.6 kip/ft^2
+### Rebar
+The Following steel grades fy are adopted in design:
+Material type: Rebar
+- Weight per unit volume: $0.49 kip/ft^3$
+- Modulus of Elasticity $4176000 kip/ft^2$
+- Minimum Yield Strength, fy: $9024.48 kip/ft^2$
+- Minimum Tensile Strength, fu: $11280.6 kip/ft^2$
+- Expected Yield Strength, fye: $9926.93 kip/ft^2$
+
+- Expected Tensile Strength, fue: 1$2408.66 kip/ft^2$
