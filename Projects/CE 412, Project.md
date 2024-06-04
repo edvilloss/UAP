@@ -182,8 +182,27 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	4. ey1; y dir
 	5. ey2; x + eccentricity
 	6. ey3; x - eccentricity
-12. Assignment of gravity loads (except self-weight)
-	- FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
-	- FPW as line load
+12. Assignment of gravity loads (except self-weight) 
+	1. FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
+	2. FPW as line load
 13. Manual and auto mesh of slabs and walls
 14. Assignment of section modifier for columns, beams, slabs, walls
+15. Definition of load combinations
+	1. Unfactored load combinations
+		1. D: (SW + FF + FPW)
+		2. L: (LL42 + LL63 + RPW + LL100 + OHWT + Lift)
+		3. D + L: (SW + FF + FPW + LL42 + LL63 + RPW + LL100 + OHWT + Lift)
+		4. Seismic weight: (SW + FF + FPW) + 0.25(LL42 + LL63 + RPW) + 0.5(LL100 + OHWT + Lift)
+		5. D + 0.5L + 0.7W
+	2. Factored load combinations:
+		1. As per BNBC 2020 (75 combos or 99 combos): see lecture notes
+16. Check model automatically in ETABS as well as recheck manually
+17. Run analysis and check for any warning (check analysis run log)
+18. Check analysis results and compare with approximate manual calculation
+19. Check for serviceability and other criteria as per BNBC 2020
+20. Check for building irregularities (Plan and vertical)
+21. Design concrete frames (Columns and Beams)
+22. Design concrete shear walls
+23. Design concrete slabs
+24. Design foundation (shallow foundation: footing or mat)
+25. Export design outputs from ETABS (as .xlsx and .docx)
