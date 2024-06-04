@@ -102,11 +102,29 @@ Lateral Loads, such as Wind Load and Seismic Load applied at the building in acc
 - Basic Wind Speed = 114 mph
 - Structural Importance Factor I = 1
 - Exposure Category = A
-Topographic Factor, kzt = 1
-Gust Effect Factor, G = 0.85
-Wind Directionality Factor, kd = 0.85
-Damping Ratio = 5%
-Wind Pressure Coefficients,
-            Cpe = 0.8
-            Cpl = -0.28 (x dir)
-            Cpl = -0.5 (y dir)
+- Topographic Factor, kzt = 1
+- Gust Effect Factor, G = 0.85
+- Wind Directionality Factor, kd = 0.85
+- Damping Ratio = 5%
+- Wind Pressure Coefficients,
+	- Cpe = 0.8
+	- Cpl = -0.28 (x dir)
+	- Cpl = -0.5 (y dir)
+#### Earthquake Load consideration parameters
+- Soil Site Class = SD
+- Seismic Zone Coefficient, Z = 0.28
+- Zone = 3
+- Importance factor, I = 1
+- Seismic Design Category, SDC = D
+- Dual System Intermediate Moment Resisting Concrete Frame with Shear Wall
+	- Response Reduction Factor, R = 6.5
+	- System Overstrength Factor, ![](file:///C:/Users/santo/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png) = 2.5 
+	- Deflection Amplification Factor, C_d = 5
+- Spectral Response Acceleration Parameters,
+	- S_s = 0.7
+	- S_1 = 0.28
+- Site Coefficients,
+	- F_a = 1.35
+	- F_v = 2.7
+- Building Period, T = 0.78 sec
+- Long Period Transition Period, TL = TD = 2
