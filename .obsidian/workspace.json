@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CE 412, Project.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/CE 412, Project.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CE 412, Project.md"
+                "file": "Courses/CE 412, Building Design.md"
               }
             }
           },
@@ -179,10 +178,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fa84b91b50a841a9",
+  "active": "afa78faf00dbf230",
   "lastOpenFiles": [
-    "Courses/CE 412, Building Design.md",
     "Projects/CE 412, Project.md",
+    "Courses/CE 412, Building Design.md",
     "Projects/CE 417, Steel Column.md",
     "Courses/CE 423, Earthquake.md",
     "CE 412, Project",
