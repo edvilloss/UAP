@@ -40,10 +40,11 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- Ix=199 $in^4$
 	- Iy=7 $in^4$
 - Beam, I= 348 $in^4$
-- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
-- From Weak axis (y)
-	- $G_{A}=\frac{ \frac{148}{10*12}+\frac{148}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.14$
-	- $G_{B}=Fixed=\infty$
+- For Colum Weak Axis (Y),
+	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
+	- $G_{A}=\frac{ \frac{7}{10*12}+\frac{7}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.04$
+	- $G_{B}=Fixed=0 \approx 1$
+	- 
 - From Strong axis (x)
 	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
 	-  $G_{B}=Fixed=\infty$
