@@ -33,10 +33,12 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 - LRFD load 
 	- 1.2DL+1.6LL
 	- $\phi P= 1.2*(173.25+57.75+27.72+9.09)+1.6*115.73=506.54k$
-### K factor
-- Assuming Steel Section of  W14x82
-	- Ix=881 $in^4$
-	- Iy=148 $in^4$
+### $4.71*\sqrt(\frac{E}{F_{y}})$
+- $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
+### Trial 1
+- Assuming Steel Section of  W14x22
+	- Ix=199 $in^4$
+	- Iy=7 $in^4$
 - Beam, I= 348 $in^4$
 - $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
 - From Weak axis (y)
@@ -45,12 +47,11 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 - From Strong axis (x)
 	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
 	-  $G_{B}=Fixed=\infty$
-![[Pasted image 20240604004004.png]]
+
 - $kL=16*2.5*12=480''$ (Weak y)
 - $kL=16*5.2*12=998.4$ (Strong x)
-### $4.71*\sqrt(\frac{E}{F_{y}})$
-- $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
 ### 1st trial
+- 
 - Assuming $\frac{KL}{r}=100$
 - $r=4.8$ (weak y)
 - $r=9.984$ (strong x)
