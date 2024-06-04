@@ -78,7 +78,7 @@ $$
 -Unit -load-on-lift-machine-room: \frac{4*PassengerWeight}{Sizeofeach lift core}
 $$
 $$
-=\frac{4*20*75}{\frac{16.067}{2}+\frac{16.067}{2}}=92.9kg /sft *2.205=204.96 psf
+=\frac{4*20*75}{\frac{16.067}{2}*\frac{16.067}{2}}=92.9kg /sft *2.205=204.96 psf
 $$
 - Gardening Load: 120 pcf (minimum as per BNBC: 105 psf):not recommended
 # Earthquake Load Calculation as per BNBC 2020
