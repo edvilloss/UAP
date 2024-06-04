@@ -176,8 +176,8 @@ $$
 	- From figure 6.2.6:
 		- In x-direction
 		- ![[Pasted image 20240602052828.png]]
-			- L = 16.067*5=80.335  ft
-			- B = 16.067*3=48.201  ft
+			- L = 16.067\*5=80.335  ft
+			- B = 16.067\*3=48.201  ft
 			- L/B = 1.67
 			- For windward wall, Cpe = 0.8
 			- For leeward wall, Cpe = -0.366
