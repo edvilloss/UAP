@@ -68,11 +68,6 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $k = 1.18$
 	- $kL=18.88'$
 	- $\frac{kL}{r_{y}}=\frac{18.88*12}{1.49}=152 > 103.55 ( not ok)$
-- From Strong axis (x)
-	- $G_{A}=\frac{ \frac{199}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
-	- $G_{B}=Fixed= 0 \approx 1$
-	- $k=1.5$
-	- $kL=24'$
 
 ### Trial 3
 - Assuming Steel Section of  W14x48 for Column
@@ -85,14 +80,24 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
 	- $G_{A}=\frac{ \frac{51.5}{10*12}+\frac{51.4}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.4$
 	- $G_{B}=Fixed=0 \approx 1$
-	- $k = 1.18$
-	- $kL=18.88'$
-	- $\frac{kL}{r_{y}}=\frac{18.88*12}{1.49}=152 > 103.55 ( not ok)$
-- From Strong axis (x)
-	- $G_{A}=\frac{ \frac{199}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
-	- $G_{B}=Fixed= 0 \approx 1$
-	- $k=1.5$
-	- $kL=24'$
+	- $k = 1.21$
+	- $kL=19.36'$
+	- $\frac{kL}{r_{y}}=\frac{19.36*12}{1.91}=121.63 > 103.55 ( not ok)$
+### Trial 4
+- Assuming Steel Section of  W14x61 for Column
+	- $I_x=640 in^4$
+	- $r_x=5.98 in$
+	- $I_y=107 in^4$
+	- $r_y=2.45 in$
+- $Beam, I= 348 in^4$
+- For Colum Weak Axis (Y),
+	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
+	- $G_{A}=\frac{ \frac{107}{10*12}+\frac{107}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.82$
+	- $G_{B}=Fixed=0 \approx 1$
+	- $k = 1.21$
+	- $kL=19.36'$
+	- $\frac{kL}{r_{y}}=\frac{19.36*12}{1.91}=121.63 > 103.55 ( not ok)$
+
 ### 1st trial
 - 
 - Assuming $\frac{KL}{r}=100$
