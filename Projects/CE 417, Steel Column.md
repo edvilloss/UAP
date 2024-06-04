@@ -36,23 +36,25 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 ### $4.71*\sqrt(\frac{E}{F_{y}})$
 - $4.71*\sqrt(\frac{E}{F_{y}})=4.71*\sqrt(\frac{29000}{60})=103.55$
 ### Trial 1
-- Assuming Steel Section of  W14x22
-	- Ix=199 $in^4$
-	- Iy=7 $in^4$
-- Beam, I= 348 $in^4$
+- Assuming Steel Section of  W14x22 for Column
+	- $I_x=199 in^4$
+	- $r_x=5.54 in$
+	- $I_y=7 in^4$
+	- $r_y=1.04 in$
+- $Beam, I= 348 in^4$
 - For Colum Weak Axis (Y),
 	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
 	- $G_{A}=\frac{ \frac{7}{10*12}+\frac{7}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.04$
 	- $G_{B}=Fixed=0 \approx 1$
-	- $K = 1.17$
-	- $kL=$
+	- $k = 1.17$
+	- $kL=18.72'$
+	- $\frac{kL}{r_{x}}=\frac{18.72}{5.54}=$
 - From Strong axis (x)
 	- $G_{A}=\frac{ \frac{199}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
-	-  $G_{B}=Fixed= 0 \approx 1$
-	- $K=1.5$
+	- $G_{B}=Fixed= 0 \approx 1$
+	- $k=1.5$
+	- $kL=24'$
 
-- $kL=16*2.5*12=480''$ (Weak y)
-- $kL=16*5.2*12=998.4$ (Strong x)
 ### 1st trial
 - 
 - Assuming $\frac{KL}{r}=100$
