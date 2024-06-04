@@ -242,7 +242,7 @@ $$
 		- LL42_live; 43 all slab, 63 roof; M0.25
 		- LL100\_live; 100 staircase ; M0.5
 		- LL63\_live; 63 roof M0.25
-		- OHWT\_livel; outer frame 500 lb/ft; 312; M1
+		- OHWT\_livel; outer frame 500 lb/ft; 312psf; M1
 		- Lift\_live; Calculated value; M1
 7. Definition and assignment of diaphragm (area diaphragm)
 8. Definition of Wind loads (as per BNBC: ASCE 7-05)
