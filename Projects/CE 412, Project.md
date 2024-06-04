@@ -146,8 +146,8 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	1. Concrete compressive strength (f’c, E)
 	2. Steel reinforcement yield strength (fy, fu)
 3. Definition of frame members
-	1. Definition of column (cross section, material, confinement type, rebar strength, clear cover 1.5' etc)
-	2. Definition of Beams (cross section, rebar strength, cover to rebar center)
+	1. Definition of column (cross section, material, confinement type, rebar strength, clear cover 1.5" and 4" etc)
+	2. Definition of Beams (cross section, rebar strength, cover to rebar center 2.5" and 3")
 4. Definition of 2D elements (area objects)
 	1. Definition of slabs (Type of member: shell, membrane or plate; material strength, thickness)
 	2. Definition of walls (type of member: shell, membrane or plate; material strength, thickness)
