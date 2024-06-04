@@ -21,6 +21,7 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- Beam W12X45
 		- 45 lb/ft
 		- $\frac{45*(33+17.5)}{1000}*4=9.09k$
+- Total Dead Loads = $173.25+57.75+27.72+9.09=267.81k$
 - Live Loads
 	- Office buildings (Table 6.2.3; BNBC 2020)
 		- File and computer rooms shall be designed for heavier loads based on anticipated occupancy
