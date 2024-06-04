@@ -48,11 +48,8 @@ Under this project a 6 storied residential building will be constructed located 
 # Structural Design Criteria
 ## Codes, Standards and References
 Structural analysis and design of this building have been reviewed according to Bangladesh National Building Code (BNBC) 2020.
-
 ACI318-08 ACI 318M-08: Building code requirement for Reinforced concrete,2008.
-
 ASCE 7-05 ASCE/SEI 7-05: 05: Minimum Design Loads for Buildings and Other Structures
-
 - Structural Analysis has been considered according to BNBC 2020.
 - Loading Criteria are considered according to BNBC 2020.
 - Material Specifications and properties have been considered according to BNBC 2020.
@@ -80,3 +77,36 @@ Material type: Rebar
 - Minimum Tensile Strength, fu: $11280.6 kip/ft^2$
 - Expected Yield Strength, fye: $9926.93 kip/ft^2$
 - Expected Tensile Strength, fue: 1$2408.66 kip/ft^2$
+## Loading Criteria (detailed calculations)
+The building has been analyzed for possible load actions such as Gravity and Lateral Loads.
+### Gravity Loads
+Gravity loads, such as dead and live loads applied at the floors or roofs of the building according to the provision of BNBC 2020 are as follows
+#### Dead loads
+- Self-Weight of Concrete = 150 pcf
+- Floor finish (FF) on floors = 25 psf;
+	- Stairs = 56 psf; 
+	- Roof = 40 psf
+- Fixed Partition wall (RPW) = 10" beam * 8.75' Height * 120 pcf brick with morter = 875 plf;
+	- 5" beam 437.5 plf; 
+	- parapet wall = 200 plf
+#### Live loads
+- Floor Live Load (LL42) = 42 psf
+- Staircase Live Load (LL100) = 100 psf
+- Roof Live Load (LL63) = 63 psf
+- Random Partition Wall (RPW) = 25 psf
+- OHWT 5' = 312 psf; Edge = 500 plf
+- Lift load = $\frac{4*8*75}{5.5*6.167}*2.206 \approx 170 psf$
+### Lateral Loads
+Lateral Loads, such as Wind Load and Seismic Load applied at the building in accordance with the provision of Chapter 2, Part 6 of BNBC 2020 is as follows:
+#### Wind Load consideration parameters
+- Basic Wind Speed = 114 mph
+- Structural Importance Factor I = 1
+- Exposure Category = A
+Topographic Factor, kzt = 1
+Gust Effect Factor, G = 0.85
+Wind Directionality Factor, kd = 0.85
+Damping Ratio = 5%
+Wind Pressure Coefficients,
+            Cpe = 0.8
+            Cpl = -0.28 (x dir)
+            Cpl = -0.5 (y dir)
