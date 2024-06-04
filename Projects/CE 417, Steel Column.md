@@ -48,12 +48,34 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $G_{B}=Fixed=0 \approx 1$
 	- $k = 1.17$
 	- $kL=18.72'$
-	- $\frac{kL}{r_{x}}=\frac{18.72}{5.54}=$
+	- $\frac{kL}{r_{y}}=\frac{18.72*12}{1.04}=216 > 103.55 ( not ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r} \right)}$
 - From Strong axis (x)
 	- $G_{A}=\frac{ \frac{199}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
 	- $G_{B}=Fixed= 0 \approx 1$
 	- $k=1.5$
 	- $kL=24'$
+### Trial 2
+- Assuming Steel Section of  W14x30 for Column
+	- $I_x=199 in^4$
+	- $r_x=5.54 in$
+	- $I_y=7 in^4$
+	- $r_y=1.04 in$
+- $Beam, I= 348 in^4$
+- For Colum Weak Axis (Y),
+	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
+	- $G_{A}=\frac{ \frac{7}{10*12}+\frac{7}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.04$
+	- $G_{B}=Fixed=0 \approx 1$
+	- $k = 1.17$
+	- $kL=18.72'$
+	- $\frac{kL}{r_{y}}=\frac{18.72*12}{1.04}=216 > 103.55 ( not ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r} \right)}$
+- From Strong axis (x)
+	- $G_{A}=\frac{ \frac{199}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
+	- $G_{B}=Fixed= 0 \approx 1$
+	- $k=1.5$
+	- $kL=24'$
+
 
 ### 1st trial
 - 
