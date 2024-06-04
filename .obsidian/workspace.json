@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md",
+                "file": "Courses/CE 412, Building Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CE 417, Steel Column.md"
+                "file": "Courses/CE 412, Building Design.md"
               }
             }
           },
@@ -167,8 +167,8 @@
   },
   "active": "afa78faf00dbf230",
   "lastOpenFiles": [
-    "Courses/CE 412, Building Design.md",
     "Projects/CE 417, Steel Column.md",
+    "Courses/CE 412, Building Design.md",
     "Courses/CE 423, Earthquake.md",
     "Courses/CE 531, GIS.md",
     "Assets/Attachments/Pasted image 20240604004004.png",
