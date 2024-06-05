@@ -96,8 +96,9 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $G_{B}=Fixed=0 \approx 1$
 	- $k = 1.29$
 	- $kL=20.64'$
-	- $\frac{kL}{r_{y}}=\frac{20.64*12}{2.45}= 101.1 < 103.55 (ok)$
-	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}$
+	- $\frac{kL}{r_{y}}=\frac{20.64*12}{2.45}= 101.09 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{101.09^2}=28$
+	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28} \right) \right)*60=24.$
 
 ### 1st trial
 - 
