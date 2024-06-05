@@ -65,7 +65,7 @@ Structural geometry (Shape, size, story height and number of stories) have been 
 The following concrete grades f'c (28 days cylinder strength) are adopted in design
 - Directional Type: Isotropic
 - Weight per unit volume 0.15 kip/ft^3
-- Modulus of Elasticity (brick chip) = 4$5000\sqrt(f'_c) = 2623928.353 psi = 377845.6828 kip/ft^2$
+- Modulus of Elasticity (brick chip) = $45000\sqrt(f'_c) = 2623928.353 psi = 377845.6828 kip/ft^2$
 - Poison's ration 0.2
 - Concrete compressive strength, fc' = 3400 psi = 489.6 kip/ft^2
 ### Rebar
