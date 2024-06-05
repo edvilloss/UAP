@@ -94,9 +94,10 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
 	- $G_{A}=\frac{ \frac{107}{10*12}+\frac{107}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.82$
 	- $G_{B}=Fixed=0 \approx 1$
-	- $k = 1.21$
-	- $kL=19.36'$
-	- $\frac{kL}{r_{y}}=\frac{19.36*12}{1.91}=121.63 > 103.55 ( not ok)$
+	- $k = 1.29$
+	- $kL=20.64'$
+	- $\frac{kL}{r_{y}}=\frac{20.64*12}{2.45}= 101.1 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}$
 
 ### 1st trial
 - 
