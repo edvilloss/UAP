@@ -120,10 +120,14 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{27} \right) \right)*60=23.67$
 	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*23.67*24=511.27 k >506.54k$ (Ok)
 - From Strong axis (x)
-	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{199}{16*12}}{\frac{348}{35*12}}=2.5$
+	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
 	- $G_{B}=Fixed= 0 \approx 1$
-	- $k=1.5$
-	- $kL=24'$
+	- $k=2$
+	- $kL=32'$
+	- $\frac{kL}{r_{x}}=\frac{32*12}{6.05}= 63.47 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=71$
+	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{71} \right) \right)*60=42.12$
+	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*42.12*24=909.9 k >506.54k$ (Ok)
 ### 1st trial
 - 
 - Assuming $\frac{KL}{r}=100$
