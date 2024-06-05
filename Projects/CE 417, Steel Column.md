@@ -111,14 +111,14 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 - $Beam, I= 348 in^4$
 - For Colum Weak Axis (Y),
 	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
-	- $G_{A}=\frac{ \frac{121}{10*12}+\frac{121}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.14$
+	- $G_{A}=\frac{ \frac{121}{10*12}+\frac{121}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=0.93$
 	- $G_{B}=Fixed=0 \approx 1$
-	- $k = 1.33$
-	- $kL=21.28'$
-	- $\frac{kL}{r_{y}}=\frac{21.28*12}{2.48}= 102.96 < 103.55 (ok)$
-	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=27$
-	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{27} \right) \right)*60=23.67$
-	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*23.67*24=511.27 k >506.54k$ (Ok)
+	- $k = 1.3$
+	- $kL=20.8'$
+	- $\frac{kL}{r_{y}}=\frac{20.8*12}{2.46}= 100.65 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{100.65^2}=28.25$
+	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28.25} \right) \right)*60=24.66$
+	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*24.66*20=443.88 k <506.54k$ (Not Ok)
 - From Strong axis (x)
 	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
 	- $G_{B}=Fixed= 0 \approx 1$
