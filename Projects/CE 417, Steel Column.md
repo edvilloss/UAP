@@ -119,15 +119,6 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{100.65^2}=28.25$
 	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28.25} \right) \right)*60=24.66$
 	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*24.66*20=443.88 k <506.54k$ (Not Ok)
-- From Strong axis (x)
-	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
-	- $G_{B}=Fixed= 0 \approx 1$
-	- $k=2$
-	- $kL=32'$
-	- $\frac{kL}{r_{x}}=\frac{32*12}{6.05}= 63.47 < 103.55 (ok)$
-	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=71$
-	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{71} \right) \right)*60=42.12$
-	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*42.12*24=909.9 k >506.54k$ (Ok)
 ### Trial 6
 - Assuming Steel Section of  W14x82 for Column
 	- $I_x=881 in^4$
@@ -141,6 +132,33 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $G_{A}=\frac{ \frac{148}{10*12}+\frac{148}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.14$
 	- $G_{B}=Fixed=0 \approx 1$
 	- $k = 1.33$
+	- $kL=21.28'$
+	- $\frac{kL}{r_{y}}=\frac{21.28*12}{2.48}= 102.96 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=27$
+	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{27} \right) \right)*60=23.67$
+	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*23.67*24=511.27 k >506.54k$ (Ok)
+- From Strong axis (x)
+	- $G_{A}=\frac{ \frac{881}{10*12}+\frac{881}{16*12}}{\frac{348}{35*12}}=14.4$
+	- $G_{B}=Fixed= 0 \approx 1$
+	- $k=2$
+	- $kL=32'$
+	- $\frac{kL}{r_{x}}=\frac{32*12}{6.05}= 63.47 < 103.55 (ok)$
+	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=71$
+	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{71} \right) \right)*60=42.12$
+	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*42.12*24=909.9 k >506.54k$ (Ok)
+### Trial 7
+- Assuming Steel Section of  W14x74 for Column
+	- $I_x=795 in^4$
+	- $r_x=6.04 in$
+	- $I_y=134 in^4$
+	- $r_y=2.48 in$
+	- $A_g =21.8 in^2$
+- $Beam, I= 348 in^4$
+- For Colum Weak Axis (Y),
+	- $G_{A}=\sum \frac{\left( \frac{I}{L} \right)_{Col}}{\left( \frac{I}{L} \right)_{Beam}}$
+	- $G_{A}=\frac{ \frac{134}{10*12}+\frac{134}{16*12}}{\frac{348}{33*12}+\frac{348}{33*12}}=1.03$
+	- $G_{B}=Fixed=0 \approx 1$
+	- $k = 1.3$
 	- $kL=21.28'$
 	- $\frac{kL}{r_{y}}=\frac{21.28*12}{2.48}= 102.96 < 103.55 (ok)$
 	- $F_{e}=\frac{\pi^2E}{\left( \frac{kL}{r_{y}} \right)^2}=\frac{\pi^2*29000}{102.96^2}=27$
