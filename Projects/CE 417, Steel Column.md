@@ -102,7 +102,7 @@ SSA ==four-story== steel-framed office building comprised of three bays @ ==33 f
 	- $F_{cr}=\left( 0.658^\left( \frac{F_{y}}{F_{e}} \right) \right)*F_{y}=\left( 0.658^\left( \frac{60}{28} \right) \right)*60=24.47$
 	- $\phi P_{n}=0.9*F_{cr}*A_{g}=0.9*24.47*17.9=395.21 k <506.54k$ (not Ok)
 ### Trial 5
-- Assuming Steel Section of  W14x82 for Column
+- Assuming Steel Section of  W14x68 for Column
 	- $I_x=722 in^4$
 	- $r_x=6.01 in$
 	- $I_y=121 in^4$
