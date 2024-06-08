@@ -312,6 +312,26 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	1. Add/Edit design strips
 		1. Select story
 		2. Include middle strip
-		3. $x \rightarrow A$
+		3. $X \rightarrow A$
+		4. $Y \rightarrow B$
+	2. Show strips 
+		1. View option
+			1. General
+				1. Strip A
+				2. Strip B
+	3. Design
+		1. Concrete Slab Design
+			1. Reference
+			2. Defining Load combinations
+			3. Select story for design
+			4. Start design
+			5. Display flexural design
+				1. Non; for see the rebar requirements(As) per strip 
+				2. Select rebars; for providing
+			6. Display Punching check
+				1. N/C, not calculated
+				2. D/C ration, demand capacity
+					1. If > 1 than punching
 20. Design foundation (shallow foundation: footing or mat)
+	1. Manual calculation from Fy reaction on support
 21. Export design outputs from ETABS (as .xlsx and .docx)
