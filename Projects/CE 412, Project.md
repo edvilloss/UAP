@@ -335,3 +335,5 @@ Bearing capacity of soil considered for this building is 4 ksf.
 20. Design foundation (shallow foundation: footing or mat)
 	1. Manual calculation from Fy reaction on support
 21. Export design outputs from ETABS (as .xlsx and .docx)
+![[Pasted image 20240608152907.png]] <sup> 3d view </sup>
+d
