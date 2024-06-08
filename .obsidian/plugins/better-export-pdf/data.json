@@ -13,10 +13,10 @@
   "enabledCss": false,
   "prevConfig": {
     "pageSize": "A4",
-    "marginType": "0",
+    "marginType": "1",
     "showTitle": true,
     "open": true,
-    "scale": 87,
+    "scale": 100,
     "landscape": false,
     "marginTop": "10",
     "marginBottom": "10",

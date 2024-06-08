@@ -1,20 +1,56 @@
 # TOC
 >[!SUMMARY] Table of Contents
-<%*
-    let headers = await tp.file.content
-        .split('\n') // split file into lines
-        .filter(t => t.match(/^[#]+\s+/gi)) // only get headers
-        .map(h => {
-            let header_level = h.split(' ')[0].match(/#/g).length;
-             // get header text without special characters like '[' and ']'
-            let header_text = h.substring(h.indexOf(' ') + 1).replace(/[\[\]]+/g, '');
-            let header_link = `[[${tp.file.title}#${header_text}|${header_text}]]`
-
-            // prepend block-quote (>), indentation and bullet-point (-)
-            return `>${'    '.repeat(header_level - 1) + '- ' + header_link}`;
-        })
-        .join('\n')
-%><% headers %>
+>- [[CE 412, Project#Introduction|Introduction]]
+>    - [[CE 412, Project#General|General]]
+>    - [[CE 412, Project#Project Information|Project Information]]
+>- [[CE 412, Project#Structural Design Criteria|Structural Design Criteria]]
+>    - [[CE 412, Project#Codes, Standards and References|Codes, Standards and References]]
+>    - [[CE 412, Project#Structural Geometry Considerations|Structural Geometry Considerations]]
+>    - [[CE 412, Project#Material Specifications|Material Specifications]]
+>        - [[CE 412, Project#Concrete|Concrete]]
+>        - [[CE 412, Project#Rebar|Rebar]]
+>    - [[CE 412, Project#Loading Criteria (detailed calculations)|Loading Criteria (detailed calculations)]]
+>        - [[CE 412, Project#Gravity Loads|Gravity Loads]]
+>            - [[CE 412, Project#Dead loads|Dead loads]]
+>            - [[CE 412, Project#Live loads|Live loads]]
+>        - [[CE 412, Project#Lateral Loads|Lateral Loads]]
+>            - [[CE 412, Project#Wind Load consideration parameters|Wind Load consideration parameters]]
+>            - [[CE 412, Project#Earthquake Load consideration parameters|Earthquake Load consideration parameters]]
+>    - [[CE 412, Project#Boundary Conditions (Support Conditions)|Boundary Conditions (Support Conditions)]]
+>    - [[CE 412, Project#Design Method and Load Combinations|Design Method and Load Combinations]]
+>        - [[CE 412, Project#Unfactored load combinations|Unfactored load combinations]]
+>        - [[CE 412, Project#Factored Load Combinations|Factored Load Combinations]]
+>    - [[CE 412, Project#Bearing Capacity of Shallow Foundation/Pile capacity|Bearing Capacity of Shallow Foundation/Pile capacity]]
+>    - [[CE 412, Project#3D view and Typical Plan of Building|3D view and Typical Plan of Building]]
+>    - [[CE 412, Project#Selection of Analysis type|Selection of Analysis type]]
+>- [[CE 412, Project#ANALYSIS AND SOFTWARE DESIGN FEATURES|ANALYSIS AND SOFTWARE DESIGN FEATURES]]
+>    - [[CE 412, Project#Serviceability Criteria|Serviceability Criteria]]
+>        - [[CE 412, Project#Vertical Deflection Limits (D+L and L)|Vertical Deflection Limits (D+L and L)]]
+>        - [[CE 412, Project# Maximum Lateral displacement for Wind Load| Maximum Lateral displacement for Wind Load]]
+>        - [[CE 412, Project#Story drift for Wind Load|Story drift for Wind Load]]
+>        - [[CE 412, Project#Maximum Lateral displacement for Earthquake Load|Maximum Lateral displacement for Earthquake Load]]
+>    - [[CE 412, Project#Irregularities|Irregularities]]
+>        - [[CE 412, Project#Plan Irregularity|Plan Irregularity]]
+>            - [[CE 412, Project#Torsional Irregularity|Torsional Irregularity]]
+>            - [[CE 412, Project#Re-entering Corners|Re-entering Corners]]
+>            - [[CE 412, Project#Diaphragm Discontinuity|Diaphragm Discontinuity]]
+>            - [[CE 412, Project#Out of Plane Offsets|Out of Plane Offsets]]
+>            - [[CE 412, Project#Non-parallel System|Non-parallel System]]
+>        - [[CE 412, Project#Vertical Irregularity|Vertical Irregularity]]
+>            - [[CE 412, Project#Stiffness Irregularity-Soft Story|Stiffness Irregularity-Soft Story]]
+>            - [[CE 412, Project#Mass Irregularity|Mass Irregularity]]
+>            - [[CE 412, Project# Vertical Geometric Irregularity| Vertical Geometric Irregularity]]
+>            - [[CE 412, Project#Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force|Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force]]
+>            - [[CE 412, Project#Discontinuity in Capacity-Weak Story|Discontinuity in Capacity-Weak Story]]
+>    - [[CE 412, Project#Summary Table|Summary Table]]
+>- [[CE 412, Project#Adequacy of Structural Memebers|Adequacy of Structural Memebers]]
+>    - [[CE 412, Project#Column|Column]]
+>    - [[CE 412, Project#Beam|Beam]]
+>    - [[CE 412, Project#Shear Wall|Shear Wall]]
+>    - [[CE 412, Project#Slab|Slab]]
+>    - [[CE 412, Project#Foundation |Foundation ]]
+>- [[CE 412, Project#Conclusion|Conclusion]]
+>    - [[CE 412, Project#Recommendations|Recommendations]]
 # Introduction
 ## General
 Under this project a 6 storied residential building will be constructed located Sirajganj. It is a reinforced concrete (RC) frame structure. The floor slabs will be constructed as beam supported slab. The original topography of the site was probably generally level ground. Based on the soil test report the foundation has been designed as shallow foundation. An Architectural Design Drawing (Auto CAD soft copy), Sub-soil Investigation Report (PDF soft copy), Project Information Sheet (doc. file) slabs found to be adequate in consideration of thickness and reinforcement are provided. So, we need to be submitted ETABS File (Soft copy of edb file), Project report (Soft copy of doc file), Sample drawing (Soft copy of hand sketch). The analysis and design of this building has been conducted according to Bangladesh Nation Building Code (BNBC) 2017.
