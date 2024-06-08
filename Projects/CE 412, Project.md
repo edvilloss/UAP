@@ -553,4 +553,28 @@ Structural analysis has been performed by Finite Element Analysis.
 | 10        |                       | Discontinuity in Capacity-Weak Story | No         |
 # Adequacy of Structural Memebers
 ## Column
-![[Pasted image 20240608154913.png]] <sup> longi rebar M
+![[Pasted image 20240608154913.png]] 
+<sup> longi rebar </sup>
+![[Pasted image 20240608154957.png]] <sup> cross section of column </sup>
+![[Pasted image 20240608155018.png]] 
+<sup> Long section of Column </sup>
+## Beam
+![[Pasted image 20240608155053.png]]
+<sup> longi rebar </sup>
+![[Pasted image 20240608155114.png]] 
+<sup> longi section of beam </sup>
+![[Pasted image 20240608155143.png]]
+<sup> section AA and CC of beam </sup>
+![[Pasted image 20240608155212.png]]
+<sup> section BB of beam </sup>
+## Shear Wall
+
+![[Pasted image 20240608155240.png]]
+<sup> longi rebar of SW </sup>
+![[Pasted image 20240608155309.png]]
+<sup> cross section of SW </sup>
+## Slab
+![[Pasted image 20240608155333.png]]
+<sup> Slab reinforcement req </sup>
+![[Pasted image 20240608155359.png]] 
+<sup> Slab reinforcement detailing </sup>
