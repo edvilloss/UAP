@@ -1,3 +1,20 @@
+# TOC
+>[!SUMMARY] Table of Contents
+<%*
+    let headers = await tp.file.content
+        .split('\n') // split file into lines
+        .filter(t => t.match(/^[#]+\s+/gi)) // only get headers
+        .map(h => {
+            let header_level = h.split(' ')[0].match(/#/g).length;
+             // get header text without special characters like '[' and ']'
+            let header_text = h.substring(h.indexOf(' ') + 1).replace(/[\[\]]+/g, '');
+            let header_link = `[[${tp.file.title}#${header_text}|${header_text}]]`
+
+            // prepend block-quote (>), indentation and bullet-point (-)
+            return `>${'    '.repeat(header_level - 1) + '- ' + header_link}`;
+        })
+        .join('\n')
+%><% headers %>
 # Introduction
 ## General
 Under this project a 6 storied residential building will be constructed located Sirajganj. It is a reinforced concrete (RC) frame structure. The floor slabs will be constructed as beam supported slab. The original topography of the site was probably generally level ground. Based on the soil test report the foundation has been designed as shallow foundation. An Architectural Design Drawing (Auto CAD soft copy), Sub-soil Investigation Report (PDF soft copy), Project Information Sheet (doc. file) slabs found to be adequate in consideration of thickness and reinforcement are provided. So, we need to be submitted ETABS File (Soft copy of edb file), Project report (Soft copy of doc file), Sample drawing (Soft copy of hand sketch). The analysis and design of this building has been conducted according to Bangladesh Nation Building Code (BNBC) 2017.
@@ -578,3 +595,17 @@ Structural analysis has been performed by Finite Element Analysis.
 <sup> Slab reinforcement req </sup>
 ![[Pasted image 20240608155359.png]] 
 <sup> Slab reinforcement detailing </sup>
+## Foundation 
+![[Pasted image 20240608155455.png]]
+<sup> column Load </sup>
+![[Pasted image 20240608155508.png]]
+<sup> Detailing of Footing (square)</sup>
+# Conclusion
+- Structural Inadequacies: Significant structural deficiencies were identified in the building:
+	- Beams: Multiple beams failed to meet structural requirements.
+	- Columns: Several columns exhibited insufficient strength based on the beam-column ratio, indicating a potential violation of the "strong column-weak beam" principle.
+	- Slabs: All slabs required further evaluation for structural adequacy.
+- Torsional Irregularity: The building displayed torsional irregularity, a structural weakness that can affect performance under lateral loads like wind or earthquakes.
+## Recommendations
+- Further modification in the Beam column section is needed
+- Multiple separate designs of structural elements are needed for a more economical design
