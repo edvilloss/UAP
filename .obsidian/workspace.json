@@ -4,33 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "94dacceb3bef7b12",
-        "type": "tabs",
+        "id": "8bc26be4b4efd586",
+        "type": "split",
         "children": [
           {
-            "id": "fe005fd63a7f32a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/CE 101, Engineering Mechanics.md",
-                "mode": "source",
-                "source": false
+            "id": "94dacceb3bef7b12",
+            "type": "tabs",
+            "dimension": 37.16577540106952,
+            "children": [
+              {
+                "id": "fe005fd63a7f32a9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Projects/CE 412, Project.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2221f56f4b1a23b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Courses/CE 101, Engineering Mechanics.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "35ef7ce74cfa5def",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
+            "id": "84a57af1b2c5f566",
+            "type": "tabs",
+            "dimension": 62.834224598930476,
+            "children": [
+              {
+                "id": "46c409545dc85ceb",
+                "type": "leaf",
+                "state": {
+                  "type": "diagrams-net",
+                  "state": {}
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -161,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5
+    "width": 378.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,7 +201,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35ef7ce74cfa5def",
+  "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
     "Projects/CE 412, Project.md",
     "Courses/CE 101, Engineering Mechanics.md",
@@ -200,7 +226,6 @@
     "Assets/Attachments/417 2.tif",
     "Assets/Attachments/417 1.tif",
     "Assets/Attachments/417.tif",
-    "Courses/Untitled.md",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
