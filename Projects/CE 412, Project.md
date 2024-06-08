@@ -195,7 +195,13 @@ Bearing capacity of soil considered for this building is 4 ksf.
 6. Definition of Mass source (Seismic dead loads)
 	1. SW 1
 	2. 42_LL 0.25
-	3. 63_LL -.2
+	3. 63_LL 0.25
+	4. 75_LL 0.5
+	5. 100_LL 0.5
+	6. Lift 1
+	7. OHWT 1
+	8. RPW 0.25
+	9. FPW 1
 7. Definition of earthquake loads (as per ASCE 7-05)
 	1. ex1; x dir
 	2. ex2; x + eccentricity
@@ -207,7 +213,10 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	1. FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
 	2. FPW as line load
 9. Manual and auto mesh of slabs and walls
+	1. For manual meshing, no more than 4 nodes on a shell element  
 10. Assignment of section modifier for columns, beams, slabs, walls
+	1. Service load modifier for Check
+	2. 
 11. Definition of load combinations
 	1. Unfactored load combinations
 		1. D: (SW + FF + FPW)
