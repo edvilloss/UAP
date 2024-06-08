@@ -4,56 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "9c5e3c0c7764dd41",
-        "type": "split",
+        "id": "94dacceb3bef7b12",
+        "type": "tabs",
         "children": [
           {
-            "id": "94dacceb3bef7b12",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fe005fd63a7f32a9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Projects/CE 412, Project.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2221f56f4b1a23b9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Courses/CE 101, Engineering Mechanics.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "fe005fd63a7f32a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/CE 412, Project.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
+            }
           },
           {
-            "id": "5a10e72f8639d854",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "fb5f0e56ad6216db",
-                "type": "leaf",
-                "state": {
-                  "type": "diagrams-net",
-                  "state": {}
-                }
+            "id": "2221f56f4b1a23b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CE 101, Engineering Mechanics.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bd8844562534f5c6",
@@ -201,6 +181,8 @@
   },
   "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
+    "Assets/Attachments/Diagram 1.svg.xml",
+    "Assets/Attachments/Diagram 1.svg",
     "Assets/Attachments/Pasted image 20240609040846.png",
     "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Diagram.svg",
@@ -215,8 +197,6 @@
     "Assets/Attachments/Pasted image 20240608155333.png",
     "Assets/Attachments/Pasted image 20240608155309.png",
     "Assets/Attachments/Pasted image 20240608155240.png",
-    "Assets/Attachments/Pasted image 20240608155212.png",
-    "Assets/Attachments/Pasted image 20240608155200.png",
     "Projects/CE 417, Steel Column.md",
     "Projects/417, Steel.md",
     "Courses/CE 423, Earthquake.md",
