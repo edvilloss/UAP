@@ -143,17 +143,30 @@ Column base supports have been considered as fixed supports in 3D model of super
 Bearing capacity of soil considered for this building is 4 ksf.
 ## 3D view and Typical Plan of Building
 1. Grid and Story data
+	1. X grid 
+	2. Y grid
+	3. Story with base + OHWT
 2. Definition of Material properties
 	1. Concrete compressive strength (f’c, E)
-	2. Steel reinforcement yield strength (fy, fu)
+	2. Steel reinforcement yield strength (fy, fu, fye, fue)
 3. Definition of frame members
 	1. Definition of column (cross section, material, confinement type, rebar strength, clear cover 1.5" and 4" etc)
+		1. Short column 
+		2. Regular column
 	2. Definition of Beams (cross section, rebar strength, cover to rebar center 2.5" and 3")
-4. Definition of 2D elements (area objects)
+		1. Define separate members for various use case
+		2. Define roof beam as separate so that selection process for load application is easier
+1. Definition of 2D elements (area objects)
 	1. Definition of slabs (Type of member: shell, membrane or plate; material strength, thickness)
+		1. Parking Slab (75psf_LL)
+		2. Floor Slab (42psf_LL)
+		3. Stair landing (100psf_LL)
+		4. Stairs (100psf_LL; 56psf_FF)
+		5. Roof (63psf_LL; 40psf_FF)
+		6. Cantilever 
 	2. Definition of walls (type of member: shell, membrane or plate; material strength, thickness)
-5. Draw the structural geometry (column, shear wall, beam and slab)
-6. Definition of dead and live loads
+2. Draw the structural geometry (column, shear wall, beam and slab)
+3. Definition of dead and live loads
 	1. Dead loads:
 		1. SW (dead)\_dead\_self weight multiplier-1; M1
 		2. FF\_super dead\_self weight multiplier-0 (25psf); Landing (56 psf); M1
@@ -166,8 +179,8 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		5. LL75_live; 75 parking M0.25
 		6. OHWT\_livel; outer frame 500 lb/ft; 312psf; M1
 		- Lift\_live; Calculated value; M1
-8. Definition and assignment of diaphragm (area diaphragm)
-9. Definition of Wind loads (as per BNBC: ASCE 7-05)
+4. Definition and assignment of diaphragm (area diaphragm)
+5. Definition of Wind loads (as per BNBC: ASCE 7-05)
 	1. Wx1; 0 degree; case 1
 	2. wx2; 0 degree; case 2
 	3. wx3; 0 degree; case 3
@@ -176,20 +189,20 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	6. wy2; 90 degree; case 2
 	7. wy3; 90 degree; case 3
 	8. wy4; 90 degree; case 4
-10. Definition of Mass source (Seismic dead loads)
-11. Definition of earthquake loads (as per ASCE 7-05)
+6. Definition of Mass source (Seismic dead loads)
+7. Definition of earthquake loads (as per ASCE 7-05)
 	1. ex1; x dir
 	2. ex2; x + eccentricity
 	3. ex3; x - eccentricity
 	4. ey1; y dir
 	5. ey2; x + eccentricity
 	6. ey3; x - eccentricity
-12. Assignment of gravity loads (except self-weight) 
+8. Assignment of gravity loads (except self-weight) 
 	1. FF, RPW, LL42, LL63, LL100, OHWT, Lift as area load
 	2. FPW as line load
-13. Manual and auto mesh of slabs and walls
-14. Assignment of section modifier for columns, beams, slabs, walls
-15. Definition of load combinations
+9. Manual and auto mesh of slabs and walls
+10. Assignment of section modifier for columns, beams, slabs, walls
+11. Definition of load combinations
 	1. Unfactored load combinations
 		1. D: (SW + FF + FPW)
 		2. L: (LL42 + LL63 + RPW + LL100 + OHWT + Lift)
@@ -198,13 +211,13 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		5. D + 0.5L + 0.7W
 	2. Factored load combinations:
 		1. As per BNBC 2020 (75 combos or 99 combos): see lecture notes
-16. Check model automatically in ETABS as well as recheck manually
-17. Run analysis and check for any warning (check analysis run log)
-18. Check analysis results and compare with approximate manual calculation
-19. Check for serviceability and other criteria as per BNBC 2020
-20. Check for building irregularities (Plan and vertical)
-21. Design concrete frames (Columns and Beams)
-22. Design concrete shear walls
-23. Design concrete slabs
-24. Design foundation (shallow foundation: footing or mat)
-25. Export design outputs from ETABS (as .xlsx and .docx)
+12. Check model automatically in ETABS as well as recheck manually
+13. Run analysis and check for any warning (check analysis run log)
+14. Check analysis results and compare with approximate manual calculation
+15. Check for serviceability and other criteria as per BNBC 2020
+16. Check for building irregularities (Plan and vertical)
+17. Design concrete frames (Columns and Beams)
+18. Design concrete shear walls
+19. Design concrete slabs
+20. Design foundation (shallow foundation: footing or mat)
+21. Export design outputs from ETABS (as .xlsx and .docx)
