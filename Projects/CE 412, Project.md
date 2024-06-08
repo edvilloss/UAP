@@ -154,17 +154,19 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		1. Short column 
 		2. Regular column
 	2. Definition of Beams (cross section, rebar strength, cover to rebar center 2.5" and 3")
-		1. Define separate members for various use case
+		1. Define separate members for various use case (FPW load, parapet wall)
 		2. Define roof beam as separate so that selection process for load application is easier
 1. Definition of 2D elements (area objects)
 	1. Definition of slabs (Type of member: shell, membrane or plate; material strength, thickness)
-		1. Parking Slab (75psf_LL)
-		2. Floor Slab (42psf_LL)
-		3. Stair landing (100psf_LL)
-		4. Stairs (100psf_LL; 56psf_FF)
-		5. Roof (63psf_LL; 40psf_FF)
-		6. Cantilever 
+		1. Parking Slab (75psf_LL; no_RPW)
+		2. Floor Slab (42psf_LL; 25psf_RPW; 25psf_FF)
+		3. Stair landing (100psf_LL; no_RPW)
+		4. Stairs (100psf_LL; 56psf_FF; no_RPW)
+		5. Roof (63psf_LL; 40psf_FF; no_RPW)
+		6. Cantilever (no_RPW; 25psf_FF; 42psf_LL)
 	2. Definition of walls (type of member: shell, membrane or plate; material strength, thickness)
+		1. Define pier label
+		2. Assign different pier label to different walls
 2. Draw the structural geometry (column, shear wall, beam and slab)
 3. Definition of dead and live loads
 	1. Dead loads:
@@ -180,6 +182,7 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		6. OHWT\_livel; outer frame 500 lb/ft; 312psf; M1
 		- Lift\_live; Calculated value; M1
 4. Definition and assignment of diaphragm (area diaphragm)
+	1. Select per floor and assign
 5. Definition of Wind loads (as per BNBC: ASCE 7-05)
 	1. Wx1; 0 degree; case 1
 	2. wx2; 0 degree; case 2
@@ -190,6 +193,9 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	7. wy3; 90 degree; case 3
 	8. wy4; 90 degree; case 4
 6. Definition of Mass source (Seismic dead loads)
+	1. SW 1
+	2. 42_LL 0.25
+	3. 63_LL -.2
 7. Definition of earthquake loads (as per ASCE 7-05)
 	1. ex1; x dir
 	2. ex2; x + eccentricity
