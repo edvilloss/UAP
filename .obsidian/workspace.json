@@ -170,9 +170,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
@@ -181,6 +178,7 @@
   },
   "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
+    "Assets/Attachments/Pasted image 20240609045354.png",
     "Assets/Attachments/Diagram 1.svg.xml",
     "Assets/Attachments/Diagram 1.svg",
     "Assets/Attachments/Pasted image 20240609040846.png",
@@ -212,7 +210,6 @@
     "Canvases/Model Builder GIS.canvas",
     "Canvases/Flood map generation (HECRAS).canvas",
     "Canvases",
-    "Assets/Attachments/Final_project_report.pdf",
     "Courses/[Projected.md",
     "A.md",
     "https/youtu.be/lNjrAXGR1d3a4.md",

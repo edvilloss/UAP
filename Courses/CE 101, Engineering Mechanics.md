@@ -41,6 +41,6 @@
 - Types of support conditions and their reactions and Deformations
 - **![](https://lh7-us.googleusercontent.com/slidesz/AGV_vUeJExgZxDrN0iB8IiG1l76L2brBLzBYcWVnJ9kbx3woJ74hABMKtB9e09i7-S0mPX6BjygnN0vroeaYe9eEdN1qBwWBW43Xhb9DyRfo9EmeGPuLF9OSRSltnpJ8VIcETPiOPiFSrOrUhpEkPRMx13bN4YVhOdXLZH5mFIGLtFoEaOrCSpU1tVo=s2048?key=U-ZnGEtyQ41XV8UzUCKisQ)**
 # Resultant and Components Force
-
+![[Pasted image 20240609045354.png]]
  
 
