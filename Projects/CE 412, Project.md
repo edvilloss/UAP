@@ -336,4 +336,16 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	1. Manual calculation from Fy reaction on support
 21. Export design outputs from ETABS (as .xlsx and .docx)
 ![[Pasted image 20240608152907.png]] <sup> 3d view </sup>
-d
+![[Pasted image 20240608153002.png]]<sup> Parking Floor plan </sup>
+![[Pasted image 20240608153025.png]]<sup> 1st Floor Plan </sup>
+![[Pasted image 20240608153059.png]]<sup> 2nd to Roof </sup>
+## Selection of Analysis type
+Structural analysis has been performed by Finite Element Analysis.
+# ANALYSIS AND SOFTWARE DESIGN FEATURES
+- MS Excel: Spread sheets
+- ETABS 16: Extended 3D Analysis of Building System
+## Serviceability Criteria
+### Vertical Deflection Limits (D+L and L)
+- Table 6.1.2: Deflection Limits
+	- $D+L: \frac{L}{240}$
+	- $\frac{L:L}{360}inch$
