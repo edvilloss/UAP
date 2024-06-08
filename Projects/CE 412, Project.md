@@ -278,7 +278,40 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	2. Design
 		1. Concrete frame design
 			1. Start Design
+	3. Display 
+		1. Longi rebar
+		2. Rebar parentage
+		3. Shear rebar
+		4. Column beam capacity ration > 1.2
+		5. All failure
+	4. Provide rebar while defining section properties
+		1. Check
+			1. Display
+				1. () means check
+				2. P-M ration if >1; failed
 18. Design concrete shear walls
+	1. Shear wall design
+		1. Preference
+			1. ACI 318-14
+			2. SDS
+		2. Assign pier section
+			1. Uniform
+				1. To be designed
+		3. Display pier longi (vertical)
+			1. pacing
+		4. Display reinforcing ration
+			1. Cross area * ratio
+		5. Display shear reinforcement (Horizontal)
+			1. Spacing
+		6. Display boundary zone
+	2. Table 
+		1. Design
+			1. Pier table
+				1. Export excel
 19. Design concrete slabs
+	1. Add/Edit design strips
+		1. Select story
+		2. Include middle strip
+		3. $x \rightarrow A$
 20. Design foundation (shallow foundation: footing or mat)
 21. Export design outputs from ETABS (as .xlsx and .docx)
