@@ -264,13 +264,20 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		5. D + 0.5L + 0.7W
 	2. Factored load combinations:
 		1. As per BNBC 2020 (75 combos or 99 combos): see lecture notes
-			1. Default for Slab, beam, column, wall provided with 
+			1. Default for Slab, beam, column, wall provided with ETABS
 12. Check model automatically in ETABS as well as recheck manually
 13. Run analysis and check for any warning (check analysis run log)
 14. Check analysis results and compare with approximate manual calculation
 15. Check for serviceability and other criteria as per BNBC 2020
 16. Check for building irregularities (Plan and vertical)
 17. Design concrete frames (Columns and Beams)
+	1. Set Design preferences 
+		1. ACI 318-08 
+		2. Seismic category 
+		3. SDS
+	2. Design
+		1. Concrete frame design
+			1. Start Design
 18. Design concrete shear walls
 19. Design concrete slabs
 20. Design foundation (shallow foundation: footing or mat)
