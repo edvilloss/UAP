@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2221f56f4b1a23b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Courses/CE 101, Engineering Mechanics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bd8844562534f5c6",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/CE 412, Project.md",
+                "file": "Courses/CE 101, Engineering Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/CE 412, Project.md",
+                "file": "Courses/CE 101, Engineering Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CE 412, Project.md"
+                "file": "Courses/CE 101, Engineering Mechanics.md"
               }
             }
           },
@@ -146,12 +160,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,9 +178,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe005fd63a7f32a9",
+  "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
     "Projects/CE 412, Project.md",
+    "Courses/CE 101, Engineering Mechanics.md",
     "Courses/CE 412, Building Design.md",
     "Templates/Table of Contents.md",
     "Assets/Attachments/Pasted image 20240608155508.png",
@@ -189,7 +203,6 @@
     "Assets/Attachments/417 2.tif",
     "Assets/Attachments/417 1.tif",
     "Assets/Attachments/417.tif",
-    "Courses/Untitled.md",
     "Projects",
     "COMMIT_EDITMSG",
     "Short note/Open Geospatial Consortium (OGC).md",
