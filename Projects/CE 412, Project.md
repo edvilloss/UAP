@@ -216,7 +216,45 @@ Bearing capacity of soil considered for this building is 4 ksf.
 	1. For manual meshing, no more than 4 nodes on a shell element  
 10. Assignment of section modifier for columns, beams, slabs, walls
 	1. Service load modifier for Check
-	2. 
+		1. Column
+			1. I22 0.98
+			2. I33 0.98
+		2. Beam
+			1. I22 0.49
+			2. I33 0.49
+		3. Slab 
+			1. m11 0.35
+			2. m22 0.35
+			3. m12 0.35
+			4. f11 0.35
+			5. f22 0.35
+			6. f12 0.35
+		4. Shear Wall
+			1. m11 0.14
+			2. m22 0.14
+			3. m12 0.14
+			4. f11 0.49
+			5. f22 0.49
+	2. Factored load modifier for Design		
+		1. Column
+			1. I22 0.7
+			2. I33 0.7
+		2. Beam
+			1. I22 0.35
+			2. I33 0.35
+		3. Slab 
+			1. m11 0.25
+			2. m22 0.25
+			3. m12 0.25
+			4. f11 0.25
+			5. f22 0.25
+			6. f12 0.25
+		4. Shear Wall
+			1. m11 0.1
+			2. m22 0.1
+			3. m12 0.1
+			4. f11 0.35
+			5. f22 0.35
 11. Definition of load combinations
 	1. Unfactored load combinations
 		1. D: (SW + FF + FPW)
@@ -226,6 +264,7 @@ Bearing capacity of soil considered for this building is 4 ksf.
 		5. D + 0.5L + 0.7W
 	2. Factored load combinations:
 		1. As per BNBC 2020 (75 combos or 99 combos): see lecture notes
+			1. Default for Slab, beam, column, wall provided with 
 12. Check model automatically in ETABS as well as recheck manually
 13. Run analysis and check for any warning (check analysis run log)
 14. Check analysis results and compare with approximate manual calculation
