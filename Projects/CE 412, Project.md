@@ -390,121 +390,167 @@ Structural analysis has been performed by Finite Element Analysis.
 			- Displacements
 				- Max/AVG
 				- Need Ratio
-				- Not Ok
+
+|   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
+|**Story**|**Load Case/Combo**|**Direction**|**Maximum**<br><br>**in**|**Average**<br><br>**in**|**Ratio**|**Status**|
+|OHWT|ex1|X|1.639932|1.639133|1|Ok|
+|ROOF|ex1|X|1.471134|1.443967|1.019|Ok|
+|4F|ex1|X|1.062319|1.01511|1.047|Ok|
+|3F|ex1|X|0.810166|0.764124|1.06|Ok|
+|2F|ex1|X|0.543065|0.505835|1.074|Ok|
+|1F|ex1|X|0.285614|0.263527|1.084|Ok|
+|GF|ex1|X|0.076615|0.076615|1|Ok|
+|OHWT|ex2|X|1.650166|1.633962|1.01|Ok|
+|ROOF|ex2|X|1.461037|1.439645|1.015|Ok|
+|4F|ex2|X|1.018662|1.010027|1.009|Ok|
+|3F|ex2|X|0.774519|0.759458|1.02|Ok|
+|2F|ex2|X|0.517861|0.502244|1.031|Ok|
+|1F|ex2|X|0.271966|0.261484|1.04|Ok|
+|GF|ex2|X|0.076659|0.076659|1|Ok|
+|OHWT|ex3|X|1.658909|1.644303|1.009|Ok|
+|ROOF|ex3|X|1.524015|1.44829|1.052|Ok|
+|4F|ex3|X|1.105976|1.020193|1.084|Ok|
+|3F|ex3|X|0.845813|0.76879|1.1|Ok|
+|2F|ex3|X|0.56827|0.509426|1.116|Ok|
+|1F|ex3|X|0.299262|0.26557|1.127|Ok|
+|GF|ex3|X|0.076572|0.076572|1|Ok|
+|OHWT|ey1|Y|1.770168|1.766487|1.002|Ok|
+|ROOF|ey1|Y|1.534578|1.511054|1.016|Ok|
+|4F|ey1|Y|1.005211|0.977367|1.028|Ok|
+|3F|ey1|Y|0.719548|0.693068|1.038|Ok|
+|2F|ey1|Y|0.442131|0.419771|1.053|Ok|
+|1F|ey1|Y|0.203659|0.188419|1.081|Ok|
+|GF|ey1|Y|0.044831|0.044534|1.007|Ok|
+|OHWT|ey2|Y|1.817164|1.76475|1.03|Ok|
+|ROOF|ey2|Y|1.762311|1.509169|1.168|Ok|
+|4F|ey2|Y|1.1674|0.975335|1.197|Ok|
+|3F|ey2|Y|0.841344|0.691171|1.217|Not Ok|
+|2F|ey2|Y|0.519117|0.418221|1.241|Not Ok|
+|1F|ey2|Y|0.238378|0.187434|1.272|Not Ok|
+|GF|ey2|Y|0.042507|0.041796|1.017|Ok|
+|OHWT|ey3|Y|1.685291|1.625108|1.037|Ok|
+|ROOF|ey3|Y|1.707173|1.401247|1.218|Not Ok|
+|4F|ey3|Y|1.173454|0.920467|1.275|Not Ok|
+|3F|ey3|Y|0.864556|0.657226|1.315|Not Ok|
+|2F|ey3|Y|0.549077|0.400628|1.371|Not Ok|
+|1F|ey3|Y|0.263854|0.181024|1.458|Not Ok|
+|GF|ey3|Y|0.046928|0.045607|1.029|Ok|
+#### Re-entering Corners
+- Building is irregular in terms of re-entrant corners if A/L>0.
+	- Building is irregular in terms of re-entrant corners if A/L
+	- No re-entering corners available for the building
+
+#### Diaphragm Discontinuity
+- Diaphragm discontinuity exists if opening area > 1/2 Total Floor Area
+- There is no opening except stair and lift in the plan of the building.
+- In terms of diaphragm discontinuity, the building is regular
+#### Out of Plane Offsets
+- There is no out of plane offset irregularity in the building
+#### Non-parallel System
+- All the shear walls are parallel and symmetric with centroidal orthogonal directions.
+### Vertical Irregularity
+#### Stiffness Irregularity-Soft Story
+- Ex1 and Ey1
+- Show Table
+	- Analysis
+		- Results
+			- Structural Results
+				- Story Stiffness
 					
 
-2. Re-entering Corners
-	- Building is irregular in terms of re-entrant corners if A/L>0.
+|            |               |                 |                 |           |            |             |            |
+| ---------- | ------------- | --------------- | --------------- | --------- | ---------- | ----------- | ---------- |
+| **Story**  | **Load Case** | **Stiffness X** | **Stiffness Y** | **Ke/Ka** | **Status** | **Ke/Kavg** | **Status** |
+| **kip/ft** | **kip/ft**    |                 |                 |           |            |             |            |
+| OHWT       | ex1           | 1856.286        | 0               | -         |            | -           |            |
+| ROOF       | ex1           | 9372.541        | 0               | 5.049082  | Ok         | -           |            |
+| 5F         | ex1           | 14412.12        | 0               | 1.537696  | Ok         | -           |            |
+| 4F         | ex1           | 18497.77        | 0               | 1.283487  | Ok         | 2.164246    | Ok         |
+| 3F         | ex1           | 21975.44        | 0               | 1.188005  | Ok         | 1.55919     | Ok         |
+| 2F         | ex1           | 27468.85        | 0               | 1.249979  | Ok         | 1.501431    | Ok         |
+| 1F         | ex1           | 36960.5         | 0               | 1.345542  | Ok         | 1.632001    | Ok         |
+| GF         | ex1           | 98987.27        | 0               | 2.678191  | Ok         | 3.436867    | Ok         |
+| OHWT       | ey1           | 0               | 1538.275        | -         |            | -           |            |
+| ROOF       | ey1           | 0               | 7837.794        | 5.095184  | Ok         | -           |            |
+| 5F         | ey1           | 0               | 11856.72        | 1.512763  | Ok         | -           |            |
+| 4F         | ey1           | 0               | 16444.38        | 1.386925  | Ok         | 2.323441    | Ok         |
+| 3F         | ey1           | 0               | 21022.65        | 1.27841   | Ok         | 1.745155    | Ok         |
+| 2F         | ey1           | 0               | 29074.21        | 1.382994  | Ok         | 1.768369    | Ok         |
+| 1F         | ey1           | 0               | 47509.68        | 1.634083  | Ok         | 2.141965    | Ok         |
+| GF         | ey1           | 0               | 147040.1        | 3.094951  | Ok         | 4.519374    | Ok         |
 
-| Story | Global X |        |         |            | Global Y |        |         |           |
-| ----- | -------- | ------ | ------- | ---------- | -------- | ------ | ------- | --------- |
-|       | **A**    | **L**  | **A/L** | **Status** | **A**    | **L**  | **A/L** | **Satus** |
-| GF    | 0        | 80.335 | 0       | ok         | 0        | 48.201 | 0       | ok        |
-| 1F    | 0        | 80.335 | 0       | ok         | 0        | 48.201 | 0       | ok        |
-| 2F    | 0        | 80.335 | 0       | ok         | 0        | 48.201 | 0       | ok        |
-| 3F    | 0        | 80.335 | 0       | ok         | 0        | 48.201 | 0       | ok        |
-| 4F    | 0        | 80.335 | 0       | ok         | 0        | 48.201 | 0       | ok        |
-| 5F    | 16.067   | 80.335 | 0.2     | ok         | 32.134   | 48.201 | 0.67    | Not ok    |
-| 6F    | 16.067   | 80.335 | 0.2     | ok         | 32.134   | 48.201 | 0.67    | Not ok    |
-| Roof  | 16.067   | 80.335 | 0.2     | ok         | 32.134   | 48.201 | 0.67    | Not ok    |
-3. Diaphragm Discontinuity
-	- Diaphragm discontinuity exists if opening area > 1/2 Total Floor Area
-	- There is no opening except stair and lift in the plan of the building.
-	- In terms of diaphragm discontinuity, the building is regular
-4. Out of Plane Offsets
-	- There is no out of plane offset irregularity in the building
-5. Non-parallel System
-	- All the shear walls are parallel and symmetric with centroidal orthogonal directions.
-## Vertical Irregularity
-1. Stiffness Irregularity-Soft Story
-	- Ex1 and Ey1
-	- Show Table
-		- Analysis
-			- Results
-				- Structural Results
-					- Story Stiffness
-					
-
-| Story | Load Case | Stiffness X kip/ft | Stiffness Y kip/ft | Ke/Ka    | Status | Ke/Kavg  | Status |
-| ----- | --------- | ------------------ | ------------------ | -------- | ------ | -------- | ------ |
-| Tank  | ex1       | 1470.95511         | 0                  | -        | Ok     | -        | Ok     |
-| Roof  | ex1       | 6499.87652         | 0                  | 4.418814 | Ok     | -        | Ok     |
-| 7F    | ex1       | 11582.43917        | 0                  | 1.781948 | Ok     | -        | Ok     |
-| 6F    | ex1       | 16005.36836        | 0                  | 1.381865 | Ok     | 2.455656 | Ok     |
-| 5F    | ex1       | 20158.67712        | 0                  | 1.259495 | Ok     | 1.774131 | Ok     |
-| 4F    | ex1       | 24845.67735        | 0                  | 1.232505 | Ok     | 1.5611   | Ok     |
-| 3F    | ex1       | 30549.23955        | 0                  | 1.22956  | Ok     | 1.502182 | Ok     |
-| 2F    | ex1       | 39532.56706        | 0                  | 1.294061 | Ok     | 1.569716 | Ok     |
-| 1F    | ex1       | 70790.63867        | 0                  | 1.790692 | Ok     | 2.237202 | Ok     |
-| GF    | ex1       | 132583.1748        | 0                  | 1.872891 | Ok     | 2.823473 | Ok     |
-| Tank  | ey1       | 0                  | 1037.49019         | -        | Ok     | -        | Ok     |
-| Roof  | ey1       | 0                  | 4015.71898         | 3.870609 | Ok     | -        | Ok     |
-| 7F    | ey1       | 0                  | 7147.01778         | 1.77976  | Ok     | -        | Ok     |
-| 6F    | ey1       | 0                  | 9519.699           | 1.331982 | Ok     | 2.340866 | Ok     |
-| 5F    | ey1       | 0                  | 11536.66871        | 1.211873 | Ok     | 1.673401 | Ok     |
-| 4F    | ey1       | 0                  | 13855.75809        | 1.201019 | Ok     | 1.47384  | Ok     |
-| 3F    | ey1       | 0                  | 16827.76967        | 1.214496 | Ok     | 1.446011 | Ok     |
-| 2F    | ey1       | 0                  | 22075.55986        | 1.311853 | Ok     | 1.568602 | Ok     |
-| 1F    | ey1       | 0                  | 42512.50574        | 1.925772 | Ok     | 2.417356 | Ok     |
-| GF    | ey1       | 0                  | 95282.51833        | 2.241282 | Ok     | 3.510958 | Ok     |
-
-2. Mass Irregularity
-	- Mass irregularity exists if mass of a story &gt; 200% mass of adjacent stories 
-	- As per occupancy (Residential building), there is no mass irregularity
-	- Show Table
-		- Model
-			- Structural Data
-				- Mass Summary
-					- Mass Summary by Story
+#### Mass Irregularity
+- Mass irregularity exists if mass of a story &gt; 200% mass of adjacent stories 
+- As per occupancy (Residential building), there is no mass irregularity
+- Show Table
+	- Model
+		- Structural Data
+			- Mass Summary
+				- Mass Summary by Story
 					
 | Story | UX lb-s²/ft | UY lb-s²/ft | UZ lb-s²/ft |
 | ----- | ----------- | ----------- | ----------- |
-| Tank  | 5403.02     | 5403.02     | 0           |
-| Roof  | 18260.29    | 18260.29    | 0           |
-| 7F    | 23923.03    | 23923.03    | 0           |
-| 6F    | 23923.03    | 23923.03    | 0           |
-| 5F    | 23923.03    | 23923.03    | 0           |
-| 4F    | 26876.43    | 26876.43    | 0           |
-| 3F    | 26934.71    | 26934.71    | 0           |
-| 2F    | 26934.71    | 26934.71    | 0           |
-| 1F    | 27034.57    | 27034.57    | 0           |
-| GF    | 13904.43    | 13904.43    | 0           |
-| Base  | 859.39      | 859.39      | 0           |
-3.  Vertical Geometric Irregularity
-	- Irregularity exists if the dimension of the lateral force resisting system at any story is more than 130% of that for any adjacent story.
-	- There is no Vertical Geometric Irregularity in the building
-4. Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
-	- Irregularity exists if the offset is greater than the width (d) or there exists a reduction in stiffness of the story below.
-	- There is no Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force in the building
-5. Discontinuity in Capacity-Weak Story
-	- Story Force
-	- Ex1 Ey1
-	- Bottom
-	- Show Table
-		- Analysis
-			- Results
-				- Structural Results
-					- Story Forces
+| Tank  |             |             |             |
+| Roof  |             |             |             |
+| 7F    |             |             |             |
+| 6F    |             |             |             |
+| 5F    |             |             |             |
+| 4F    |             |             |             |
+| 3F    |             |             |             |
+| 2F    |             |             |             |
+| 1F    |             |             |             |
+| GF    |             |             |             |
+| Base  |             |             |             |
+####  Vertical Geometric Irregularity
+- Irregularity exists if the dimension of the lateral force resisting system at any story is more than 130% of that for any adjacent story.
+- There is no Vertical Geometric Irregularity in the building
+#### Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force
+- Irregularity exists if the offset is greater than the width (d) or there exists a reduction in stiffness of the story below.
+- There is no Vertical In-Plane Discontinuity in Vertical Elements Resisting Lateral Force in the building
+#### Discontinuity in Capacity-Weak Story
+- Story Force
+- Ex1 Ey1
+- Bottom
+- Show Table
+	- Analysis
+		- Results
+			- Structural Results
+				- Story Forces
 					
-| Story | Load Case/Combo | Location | VX kip     | VY kip     | Vpresent/Vtop | Status(>0.8) |
-| ----- | --------------- | -------- | ---------- | ---------- | ------------- | ------------ |
-| GF    | ex1             | Bottom   | -511.21462 | 0          | 1             | 0k           |
-| 1F    | ex1             | Bottom   | -508.49459 | 0          | 1.03          | 0k           |
-| 2F    | ex1             | Bottom   | -491.50265 | 0          | 1.06          | 0k           |
-| 3F    | ex1             | Bottom   | -461.33435 | 0          | 1.1           | 0k           |
-| 4F    | ex1             | Bottom   | -416.89858 | 0          | 1.17          | 0k           |
-| 5F    | ex1             | Bottom   | -357.54132 | 0          | 1.23          | 0k           |
-| 6F    | ex1             | Bottom   | -290.77146 | 0          | 1.39          | 0k           |
-| 7F    | ex1             | Bottom   | -209.58307 | 0          | 1.85          | 0k           |
-| Roof  | ex1             | Bottom   | -113.55352 | 0          | 3.96          | 0k           |
-| Tank  | ex1             | Bottom   | -28.63913  | 0          | -             | 0k           |
-| GF    | ey1             | Bottom   | 0.         | -511.21461 | 1             | 0k           |
-| 1F    | ey1             | Bottom   | 0.         | -508.49458 | 1.03          | 0k           |
-| 2F    | ey1             | Bottom   | 0.         | -491.50265 | 1.06          | 0k           |
-| 3F    | ey1             | Bottom   | 0.         | -461.33434 | 1.1           | 0k           |
-| 4F    | ey1             | Bottom   | 0.         | -416.89858 | 1.17          | 0k           |
-| 5F    | ey1             | Bottom   | 0.         | -357.54132 | 1.23          | 0k           |
-| 6F    | ey1             | Bottom   | 0          | -290.77146 | 1.39          | 0k           |
-| 7F    | ey1             | Bottom   | 0          | -209.58306 | 1.85          | 0k           |
-| Roof  | ey1             | Bottom   | 0          | -113.55352 | 3.96          | 0k           |
-| Tank  | ey1             | Bottom   | 0          | -28.63913  | -             | 0k           |
+|   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
+|**Story**|**Load Case/Combo**|**VX Kip**|**VY kip**|**V present/V top**||**Status (>0.8)**|
+|OHWT|ex1|-33.057||-|||
+|ROOF|ex1|-160.226||4.846961||Ok|
+|5F|ex1|-286.239||1.78647||Ok|
+|4F|ex1|-388.006||1.355532||Ok|
+|3F|ex1|-466.219||1.201577||Ok|
+|2F|ex1|-521.731||1.119069||Ok|
+|1F|ex1|-555.953||1.065593||Ok|
+|GF|ex1|-571.187||1.027402||Ok|
+|OHWT|ey1|0|-33.057||-||
+|ROOF|ey1|0|-160.226||4.846961|Ok|
+|5F|ey1|0|-286.239||1.78647|Ok|
+|4F|ey1|0|-388.006||1.355532|Ok|
+|3F|ey1|0|-466.219||1.201577|Ok|
+|2F|ey1|0|-521.731||1.119069|Ok|
+|1F|ey1|0|-555.953||1.065593|Ok|
+|GF|ey1|0|-571.187||1.027402|Ok|
+## Summary Table
+|           |                       |                                      |            |
+| --------- | --------------------- | ------------------------------------ | ---------- |
+| **SI No** | **Category**          | **Item Name**                        | **Yes/No** |
+| 1         | Plan Irregularity     | Torsional Irregularity               | Yes        |
+| 2         |                       | Re-entrant Corners                   | No         |
+| 3         |                       | Diaphragm Discontinuity              | No         |
+| 4         |                       | Non-parallel System                  | No         |
+| 5         |                       | Out-of-Plane Offsets                 | No         |
+| 6         | Vertical Irregularity | Stiffness Irregularity-Soft Story    | No         |
+| 7         |                       | Mass Irregularity                    | No         |
+| 8         |                       | Vertical Geometric Irregularity      | No         |
+| 9         |                       | Vertical In-Plane Discontinuity      | No         |
+| 10        |                       | Discontinuity in Capacity-Weak Story | No         |
+# Adequacy of Structural Memebers
+## Column
+![[Pasted image 20240608154913.png]] <sup> longi rebar M
