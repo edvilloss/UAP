@@ -43,5 +43,38 @@
 # Resultant and Components Force
 - Resultant and components Force
 	- If a number of forces P1, P2, P3 ……. etc are acting simultaneously on a particle, then a single force, which will produce the same effect as that of all the given forces, is known as a resultant force. The forces P1, P2, P3 ……etc are called component forces.
+## Parallelogram Law of Forces
 
 ![[Pasted image 20240609045354.png]]
+## Rectangular component/ orthogonal component
+![[Pasted image 20240609212800.png]]
+# Co-planer concurrent forces
+- If the forces in a system lie in a single plane and pass through a single point, then the system constitutes a coplanar concurrent force system
+- Resultant
+	- $R_{x}=\sum F_{x}$
+	- $R_{y}=\sum F_{y}$
+	- $R=\sqrt{ R_{x}^2 +R_{y}^2}$
+	- $\tan \theta =\frac{\left( \sum F_{y} \right)}{\left( \sum F_{x} \right)}$
+- Equilibrium Conditions
+	- $R_{x}=0;R_{y}=0$
+- Equilibrium of 3 forces
+	- Triangle law of forces
+		- If two forces acting simultaneously on a body are represented by the sides of a triangle taken in order, their resultant is represented by the closing side of the triangle taken in the opposite side
+		- ![[Pasted image 20240609213446.png]]
+		- $P+Q=R$
+	- Lami's Theorem
+		- Lami's theorem is an equation relating the magnitudes of three coplanar, concurrent and non-collinear forces, which keeps an object in static equilibrium, with the angles directly opposite to the corresponding forces. P, Q, R
+		- where A , B and C are the magnitudes of three coplanar, concurrent and non-collinear forces, which keep the object in static equilibrium, and α , β and γ are the angles directly opposite to the forces P, Q and R respectively.
+		- ![[Pasted image 20240609213650.png]]
+		- $\frac{P}{\sin \alpha}=\frac{Q}{\sin \beta }=\frac{R}{\sin \gamma}$
+## Practice Problem
+- In the figure shown below, calculate the force (T) in cable BA and the force (R) in member BC if the resultant of the forces W (= 10 kips), F (= 5 kips) and T passes along BC
+- ![[Pasted image 20240609213927.png]]
+- Sol
+	- $R_{F+W}=\sqrt{ 5^2+10^2 }=11.18$
+	- $\theta_{FBW'}=\tan^{-1} (\frac{10}{5})=53.43^0$
+	- $\alpha =\theta_{ABF}+\theta_{FBW'}=180-\tan^{-1}{\frac{3}{9}}+53.43 \\ =217.99^0$
+	- $\beta =\theta_{FBW''}+\theta _{WBC}=90-53.43+\tan^{-1}{\frac{5}{5}} \\\ =81.57^0$
+	- $\gamma=\theta_{ABC}=\tan^{-1}{\frac{3}{9}}+45=63.43$
+	- $\frac{T_{AB}}{\beta}=\frac{T_{BC}}{\alpha}=\frac{T_{R}}{\gamma}$
+	- $T_{AB}=\frac{11.18*81.57}{63.43}=$
