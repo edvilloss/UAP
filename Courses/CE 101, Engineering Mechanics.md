@@ -71,10 +71,4 @@
 - In the figure shown below, calculate the force (T) in cable BA and the force (R) in member BC if the resultant of the forces W (= 10 kips), F (= 5 kips) and T passes along BC
 - ![[Pasted image 20240609213927.png]]
 - Sol
-	- $R_{F+W}=\sqrt{ 5^2+10^2 }=11.18$
-	- $\theta_{FBW'}=\tan^{-1} (\frac{10}{5})=53.43^0$
-	- $\alpha =\theta_{ABF}+\theta_{FBW'}=180-\tan^{-1}{\frac{3}{9}}+53.43 \\ =217.99^0$
-	- $\beta =\theta_{FBW''}+\theta _{WBC}=90-53.43+\tan^{-1}{\frac{5}{5}} \\\ =81.57^0$
-	- $\gamma=\theta_{ABC}=\tan^{-1}{\frac{3}{9}}+45=63.43$
-	- $\frac{T_{AB}}{\beta}=\frac{T_{BC}}{\alpha}=\frac{T_{R}}{\gamma}$
-	- $T_{AB}=\frac{11.18*81.57}{63.43}=$
+	- 
