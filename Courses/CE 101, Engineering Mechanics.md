@@ -43,8 +43,5 @@
 # Resultant and Components Force
 - Resultant and components Force
 	- If a number of forces P1, P2, P3 ……. etc are acting simultaneously on a particle, then a single force, which will produce the same effect as that of all the given forces, is known as a resultant force. The forces P1, P2, P3 ……etc are called component forces.
-- 1111111111
 
 ![[Pasted image 20240609045354.png]]
-
-dfdfdfd
