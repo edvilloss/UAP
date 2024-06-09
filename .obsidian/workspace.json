@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5dfde66b0c14b475",
-            "type": "leaf",
-            "state": {
-              "type": "diagrams-net",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,8 +162,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5dfde66b0c14b475",
+  "active": "fe005fd63a7f32a9",
   "lastOpenFiles": [
+    "Assets/Attachments/Pasted image 20240609224817.png",
+    "Assets/Attachments/Pasted image 20240609224720.png",
+    "Assets/Attachments/Pasted image 20240609223921.png",
     "Assets/Attachments/Pasted image 20240609213927.png",
     "Assets/Attachments/Pasted image 20240609213650.png",
     "Assets/Attachments/Pasted image 20240609213648.png",
@@ -188,11 +182,8 @@
     "Assets/Attachments/Diagram 1.svg",
     "Assets/Attachments/Pasted image 20240609040846.png",
     "Courses/CE 412, Building Design.md",
-    "Assets/Attachments/Diagram.svg",
     "Assets/Attachments/Diagram.svg.xml",
     "Templates/Table of Contents.md",
-    "Assets/Attachments/Pasted image 20240608155508.png",
-    "Assets/Attachments/Pasted image 20240608155504.png",
     "Projects/CE 417, Steel Column.md",
     "Projects/417, Steel.md",
     "Courses/CE 423, Earthquake.md",

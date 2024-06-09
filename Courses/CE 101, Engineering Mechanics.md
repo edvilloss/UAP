@@ -68,7 +68,19 @@
 		- ![[Pasted image 20240609213650.png]]
 		- $\frac{P}{\sin \alpha}=\frac{Q}{\sin \beta }=\frac{R}{\sin \gamma}$
 ## Practice Problem
-- In the figure shown below, calculate the force (T) in cable BA and the force (R) in member BC if the resultant of the forces W (= 10 kips), F (= 5 kips) and T passes along BC
-- ![[Pasted image 20240609213927.png]]
-- Sol
-	- 
+1. In the figure shown below, calculate the force (T) in cable BA and the force (R) in member BC if the resultant of the forces W (= 10 kips), F (= 5 kips) and T passes along BC
+	- ![[Pasted image 20240609213927.png]]
+	- Sol
+		- ![[Pasted image 20240609223921.png]]
+		- $\theta=\tan^{-1}{\frac{3}{9}=18.43^0}$
+		- $\sum F_{x}=5-T\cos 18.43-F_{BC}\cos 45=0$
+		- $\sum F_{y}=T\sin18.43-F_{BC}\sin 45-10=0$
+		- $T=11.86;F_{BC}=-8.84$
+		- Also solve-able with lami
+1. For the cable ABCD shown below, calculate the weight W and reactions at A and D if BC is horizontal.
+	1. ![[Pasted image 20240609224720.png]]
+	2. Sol
+		1. Here force component is 3
+		2. ![[Pasted image 20240609224817.png]]
+		3. $\theta = \tan^{-1}{\frac{5}{2}}=18.43^0$
+		4. $T_{BC}=\frac{\sin(90+18.43)*15}{\sin(180-18.43)}=$
