@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5984cc781741a49",
+            "type": "leaf",
+            "state": {
+              "type": "diagrams-net",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,23 +173,23 @@
   },
   "active": "fe005fd63a7f32a9",
   "lastOpenFiles": [
+    "Assets/Attachments/Pasted image 20240610003557.png",
+    "Assets/Attachments/Pasted image 20240610003521.png",
+    "Assets/Attachments/Pasted image 20240610003435.png",
+    "Assets/Attachments/Pasted image 20240610003412.png",
+    "Assets/Attachments/Pasted image 20240610001619.png",
+    "Assets/Attachments/Pasted image 20240610001231.png",
     "Assets/Attachments/Pasted image 20240609224817.png",
     "Assets/Attachments/Pasted image 20240609224720.png",
     "Assets/Attachments/Pasted image 20240609223921.png",
     "Assets/Attachments/Pasted image 20240609213927.png",
     "Assets/Attachments/Pasted image 20240609213650.png",
-    "Assets/Attachments/Pasted image 20240609213648.png",
-    "Assets/Attachments/Pasted image 20240609213446.png",
-    "Assets/Attachments/Pasted image 20240609212800.png",
     "Saydul/LCA.md",
     "Courses/CE 101, Engineering Mechanics.md",
     "Saydul",
     "Projects/CE 412, Project.md",
     "conflict-files-obsidian-git.md",
-    "Assets/Attachments/Pasted image 20240609045354.png",
     "Assets/Attachments/Diagram 1.svg.xml",
-    "Assets/Attachments/Diagram 1.svg",
-    "Assets/Attachments/Pasted image 20240609040846.png",
     "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Diagram.svg.xml",
     "Templates/Table of Contents.md",

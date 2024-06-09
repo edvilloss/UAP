@@ -82,5 +82,58 @@
 	2. Sol
 		1. Here force component is 3
 		2. ![[Pasted image 20240609224817.png]]
-		3. $\theta = \tan^{-1}{\frac{5}{2}}=18.43^0$
-		4. $T_{BC}=\frac{\sin(90+18.43)*15}{\sin(180-18.43)}=$
+		3. $\theta = \tan^{-1}{\frac{5}{10}}=26.56^0$
+		4. $T_{BC}=\frac{\sin(90+26.56)*15}{\sin(180-26.56)}=30$
+		5. $W=\frac{\sin(90+45)*30}{\sin(90+45)}=30kip$
+# MOMENT AND PARALLEL COPLANAR FORCES
+## Moment/ Moment of a force about a point/ an axis
+- Moment = Force X Moment arm ( perpendicular distance )
+## Parallel Forces
+- The forces, whose lines of action are parallel to each other, are call parallel forces
+	- Like Parallel Forces
+	- Unlike Parallel Forces
+	![[Pasted image 20240610001231.png]]
+- Couple 
+	- A couple consists of two equal, unlike parallel forces acting out of line. The effect of a couple on a body is one of pure rotation
+	- Couple Moment
+		- Moment couple = Force X arm of couple
+## Practice Probelm
+1. Find the resultant of the following parallel force system. 
+![[Pasted image 20240610001619.png]]
+	1. Solution
+		1. $R=2+3+5-1-4=5 \downarrow$
+		2. $\frac{-2*3-3*7+4*10-5*12}{-5}=x=9.4'$
+2. ![[Pasted image 20240610003412.png]]
+	1. Sol
+		1. 
+		2. $F_{x}=0=0.3N-1*\sqrt{ 3^2+3^2 }\cos{45};N=$
+3. ![[Pasted image 20240610003435.png]]
+	1. Soln
+4. ![[Pasted image 20240610003521.png]]
+	1. Sol
+5. ![[Pasted image 20240610003557.png]]
+# NON-CONCURRENT, NON-PARALLEL COPLANAR FORCES 
+## Two Force Member
+- If a member is considered to be weightless, an assumption often made when the weight is inconsiderable as compared with the magnitude of the impressed forced, and there is only two forces acting on it, it is called two force member.  
+- Any rigid body under the influence of force actions introduced at only two physical locations will undergo a motion until these (net) force actions comprise a collinear force system.  
+- A structural member is a slender two force member if 
+	- It has uniform cross section and is longer than it is wide. 
+	- It is concerned only to pin joints or ball and socket joints at its end. 
+	- It has negligible weight compared with the forces acting at its ends.
+- Two types
+	- Compression member
+	- Tension member
+- Truss only
+## Three Force Member
+- Any rigid body under the influence of force actions introduced at three physical locations will undergo a motion until these (net) force actions comprise a concurrent force system
+## Truss
+- Plane truss: 
+	- all the truss members lie in same plane and load on the truss also lie in the same plane thus forming a 2-D (two dimensional) planar structure
+- Space truss:
+	- all the truss members and load on the truss are not lying in the same plane thus forming a 3-D (three dimensional) space structure
+### Methods of Analysis of Plane Truss
+1. Method of joints: 
+	1. Determine the support reactions from equilibrium conditions as the in the case of beams. 
+	2. Select joint with only two members. Formulate two equations of equilibrium so that only one unknown appears in each equation, if possible. 
+	3. Select that the next joint such that only two unknown member forces exist, and solve them as in the previous step. 
+	4. Repeat the previous steps till all the member forces are obtained
