@@ -98,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Courses/CE 101, Engineering Mechanics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Courses/CE 101, Engineering Mechanics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Courses/CE 101, Engineering Mechanics.md"
               }
             }
           },
@@ -172,10 +174,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "83ec59e0c4b3faf7",
+  "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
-    "Courses/CE 101, Engineering Mechanics.md",
     "conflict-files-obsidian-git.md",
+    "Courses/CE 101, Engineering Mechanics.md",
     "Projects/CE 412, Project.md",
     "Assets/Attachments/Pasted image 20240609045354.png",
     "Assets/Attachments/Diagram 1.svg.xml",
