@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6527c51d781e66a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/CE 101, Engineering Mechanics.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/CE 101, Engineering Mechanics.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/CE 101, Engineering Mechanics.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -175,10 +187,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2221f56f4b1a23b9",
+  "active": "b6527c51d781e66a",
   "lastOpenFiles": [
-    "Projects/CE 412, Project.md",
     "Courses/CE 101, Engineering Mechanics.md",
+    "conflict-files-obsidian-git.md",
+    "Projects/CE 412, Project.md",
     "Assets/Attachments/Pasted image 20240609045354.png",
     "Assets/Attachments/Diagram 1.svg.xml",
     "Assets/Attachments/Diagram 1.svg",
