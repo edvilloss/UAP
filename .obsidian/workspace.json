@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "35ef7ce74cfa5def",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "35ef7ce74cfa5def",
+  "active": "fe005fd63a7f32a9",
   "lastOpenFiles": [
     "Projects/CE 412, Project.md",
     "Courses/CE 101, Engineering Mechanics.md",
