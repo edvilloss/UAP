@@ -164,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,14 +177,14 @@
   },
   "active": "2221f56f4b1a23b9",
   "lastOpenFiles": [
+    "Projects/CE 412, Project.md",
+    "Courses/CE 101, Engineering Mechanics.md",
     "Assets/Attachments/Pasted image 20240609045354.png",
     "Assets/Attachments/Diagram 1.svg.xml",
     "Assets/Attachments/Diagram 1.svg",
     "Assets/Attachments/Pasted image 20240609040846.png",
     "Courses/CE 412, Building Design.md",
     "Assets/Attachments/Diagram.svg",
-    "Projects/CE 412, Project.md",
-    "Courses/CE 101, Engineering Mechanics.md",
     "Assets/Attachments/Diagram.svg.xml",
     "Templates/Table of Contents.md",
     "Assets/Attachments/Pasted image 20240608155508.png",
@@ -194,7 +193,6 @@
     "Assets/Attachments/Pasted image 20240608155359.png",
     "Assets/Attachments/Pasted image 20240608155333.png",
     "Assets/Attachments/Pasted image 20240608155309.png",
-    "Assets/Attachments/Pasted image 20240608155240.png",
     "Projects/CE 417, Steel Column.md",
     "Projects/417, Steel.md",
     "Courses/CE 423, Earthquake.md",
